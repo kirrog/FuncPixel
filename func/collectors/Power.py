@@ -2,6 +2,9 @@ from typing import List
 
 from func.Function import Function
 from func.collectors.CollectorFunction import CollectorFunction
+from func.collectors.Multiplication import Multiplication
+from func.functions.Exponent import Exponent
+from func.functions.Logarithm import Logarithm
 
 
 class Power(CollectorFunction):
@@ -21,3 +24,20 @@ class Power(CollectorFunction):
         else:
             return 0
 
+    def differential(self, arg_num: int):
+        function = self.functions[0]
+        for i in range(1, len(self.functions)):
+            function = self.diffur(function, self.functions[i], arg_num)
+        return function
+
+    def diffur(self, one: Function, two: Function, arg_num:int) -> Function:
+        power = []
+        power.append(Logarithm(None, 1, one))
+        power.append(two)
+        m1 = Multiplication(power)
+        exp = Exponent(m1)
+        dif = []
+        dif.append(exp)
+        dif.append(m1.differential(arg_num))
+        m2 = Multiplication(dif)
+        return m2

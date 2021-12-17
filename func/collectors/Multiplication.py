@@ -4,6 +4,7 @@ from typing import List
 from func.Arg import Argument
 from func.Function import Function
 from func.collectors.CollectorFunction import CollectorFunction
+from func.collectors.Plus import Plus
 
 
 class Multiplication(CollectorFunction):
@@ -22,3 +23,11 @@ class Multiplication(CollectorFunction):
         else:
             res = 0
         return res
+
+    def differential(self, arg_num: int):
+        res = []
+        for i in range(len(self.functions)):
+            r = self.functions.copy()
+            r[i] = r[i].differential(arg_num)
+            res.append(Multiplication(r))
+        return Plus(res)

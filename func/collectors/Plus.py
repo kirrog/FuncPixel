@@ -14,3 +14,9 @@ class Plus(CollectorFunction):
         for i in arg:
             res += i
         return res
+
+    def differential(self, arg_num: int):
+        res = []
+        for i in range(len(self.functions)):
+            res.append(self.functions[i].differential(arg_num))
+        return Plus(res)

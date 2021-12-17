@@ -29,13 +29,3 @@ class CollectorFunction(Function):
     @abstractmethod
     def calculate_collected(self, arg: List[float]) -> float:
         pass
-
-    def differential(self, arg_num: int):
-        pass
-        # res = []
-        # for i in range(len(self.functions)):
-        #     r = self.functions.copy()
-        #     r[i] = r[i].differential(arg_num)
-        #
-        #     res.append(Multiplication(r))
-        # return Plus(res)
