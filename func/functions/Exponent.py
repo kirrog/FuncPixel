@@ -10,7 +10,7 @@ class Exponent(BaseFunction):
         super().__init__(pos, func, outCoef)
 
     def calculate_function(self, arg: float):
-        return math.exp(arg)
+        return math.pow(math.e, arg)
 
     def func_differential(self, func: Function, outCoef: int):
         if func is not None:

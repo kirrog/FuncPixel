@@ -22,7 +22,7 @@ class BaseFunction(Function):
 
     def calculate(self, arg: List[Argument]) -> float:
         if self.func is not None:
-            return self.calculate_function(self.func.calculate(arg))
+            return self.calculate_function(self.func.calculate(arg)) * self.outCoef
         else:
             for a in arg:
                 if a.position == self.pos:
