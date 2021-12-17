@@ -21,3 +21,6 @@ class Logarithm(BaseFunction):
             return Pol.Polynome(None, outCoef, func, pos=-1)
         else:
             return Pol.Polynome(self.pos, -outCoef, None, pos=-1)
+
+    def func_name(self):
+        return "log"

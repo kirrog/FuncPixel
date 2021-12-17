@@ -47,3 +47,25 @@ class BaseFunction(Function):
     @abstractmethod
     def func_differential(self, func: Function, outCoef: int) -> Function:
         pass
+
+    def func_to_str(self):
+        s = ""
+        if self.outCoef < 0:
+            s.join("-")
+        if self.outCoef == 1 or self.outCoef == -1:
+            s.join(self.func_name())
+        elif self.outCoef == 0:
+            return "0"
+        else:
+            s.join(str(self.outCoef) + " * ").join(self.func_name())
+        s.join("(")
+        if self.func is not None:
+            s.join(self.func.func_to_str())
+        else:
+            s.join("x_" + str(self.pos))
+        s.join(")")
+        return s
+
+    @abstractmethod
+    def func_name(self):
+        pass

@@ -18,3 +18,6 @@ class Polynome(BaseFunction):
             return Polynome(None, outCoef * self.pow, func, self.pow - 1)
         else:
             return Polynome(self.pos, outCoef * self.pow, None, self.pow - 1)
+
+    def func_name(self):
+        return "(^" + str(self.pow) + ")"

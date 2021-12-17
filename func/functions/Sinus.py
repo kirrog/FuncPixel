@@ -18,3 +18,6 @@ class Sinus(BaseFunction):
             return Cos.Cosine(None, outCoef, func)
         else:
             return Cos.Cosine(self.pos, outCoef, None)
+
+    def func_name(self):
+        return "sin"

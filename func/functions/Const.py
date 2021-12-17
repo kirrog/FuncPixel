@@ -5,7 +5,7 @@ from func.functions.BaseFunction import BaseFunction
 class Const(BaseFunction):
 
     def __init__(self, const: float):
-        super().__init__(pos=0, func=None, outCoef=0)
+        super().__init__(pos=0, func=None, outCoef=1)
         self.const = const
 
     def calculate_function(self, arg: float):
@@ -16,3 +16,6 @@ class Const(BaseFunction):
 
     def func_differential(self, func: Function, outCoef: int) -> Function:
         return Const(0)
+
+    def func_name(self):
+        return str(self.const)

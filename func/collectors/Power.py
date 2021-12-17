@@ -41,3 +41,6 @@ class Power(CollectorFunction):
         dif.append(m1.differential(arg_num))
         m2 = Multiplication(dif)
         return m2
+
+    def func_name(self):
+        return " ^ "

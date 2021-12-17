@@ -16,3 +16,8 @@ class Function(ABC):
     @abstractmethod
     def differential(self, arg_num: int):
         pass
+
+    @abstractmethod
+    def func_to_str(self):
+        pass
+

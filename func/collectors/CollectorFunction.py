@@ -29,3 +29,14 @@ class CollectorFunction(Function):
     @abstractmethod
     def calculate_collected(self, arg: List[float]) -> float:
         pass
+
+    def func_to_str(self):
+        s = " ( " + self.functions[0].func_to_str()
+        for i in self.functions:
+            s.join(self.func_name())
+            s.join(self.functions[i].func_to_str())
+        return s.join(" ) ")
+
+    @abstractmethod
+    def func_name(self):
+        pass

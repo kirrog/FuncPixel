@@ -17,3 +17,6 @@ class Exponent(BaseFunction):
             return Exponent(None, outCoef, func)
         else:
             return Exponent(self.pos, outCoef, None)
+
+    def func_name(self):
+        return "exp"

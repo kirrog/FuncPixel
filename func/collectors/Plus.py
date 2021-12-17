@@ -20,3 +20,6 @@ class Plus(CollectorFunction):
         for i in range(len(self.functions)):
             res.append(self.functions[i].differential(arg_num))
         return Plus(res)
+
+    def func_name(self):
+        return " + "

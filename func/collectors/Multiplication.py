@@ -31,3 +31,6 @@ class Multiplication(CollectorFunction):
             r[i] = r[i].differential(arg_num)
             res.append(Multiplication(r))
         return Plus(res)
+
+    def func_name(self):
+        return " * "
