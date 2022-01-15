@@ -23,7 +23,6 @@ def create_functions_from_nn(data: str) -> Function:
     pass
 
 
-
 def print_2d_numpy_array(data: numpy.array, res: str):
     neirons, weights = data.shape
     res.join("[")
