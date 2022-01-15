@@ -5,6 +5,7 @@ from func.functions.Cosine import Cosine
 from func.functions.Exponent import Exponent
 from func.functions.Logarithm import Logarithm
 from func.functions.Polynome import Polynome
+from func.functions.Sigmoid import Sigmoid
 from func.functions.Sinus import Sinus
 
 
@@ -20,7 +21,4 @@ def construct_function(name_func: str, collect: Function, pos: int):
     elif name_func == 'pol':
         return Polynome(pos, 1, collect, 1)
     elif name_func == 'sigm':
-        f = Polynome(pos, -1, collect, 1)
-        c = [Const(1), Exponent(-1, 1, f)]
-        m = Plus(c)
-        return Polynome(-1, 1, m, -1)
+        return Sigmoid(pos, 1, collect)
