@@ -20,7 +20,7 @@ def construct_function(name_func: str, collect: Function, pos: int):
     elif name_func == 'pol':
         return Polynome(pos, 1, collect, 1)
     elif name_func == 'sigm':
-        f = Polynome(pos, -1, None, 1)
-        c = [Const(1), Exponent(pos, 1, f)]
+        f = Polynome(pos, -1, collect, 1)
+        c = [Const(1), Exponent(-1, 1, f)]
         m = Plus(c)
-        return Polynome(pos, 1, m, -1)
+        return Polynome(-1, 1, m, -1)

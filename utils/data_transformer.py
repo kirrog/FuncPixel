@@ -15,7 +15,7 @@ def from_numpy_to_args_list(data: np.array) -> List[Argument]:
 
 
 def from_args_list_to_numpy(data: List[Argument]) -> np.array:
-    res = np.zero((len(data)))
+    res = np.zeros((len(data)))
     for i in data:
         res[i.position] = i.value
     return res
@@ -24,4 +24,4 @@ def from_args_list_to_numpy(data: List[Argument]) -> np.array:
 def calculate_by_layers(model: HiddenLayerDense, data: np.array) -> np.array:
     input_data = from_numpy_to_args_list(data)
     res = model.calculate(input_data)
-    return res
+    return from_args_list_to_numpy(res)

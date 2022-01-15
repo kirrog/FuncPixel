@@ -1,8 +1,6 @@
-from inspect import Argument
 from typing import List
-
 import numpy
-
+from func.Arg import Argument
 from func.collectors.Plus import Plus
 from func.functions.Const import Const
 from func.functions.Polynome import Polynome
