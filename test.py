@@ -1,6 +1,3 @@
-import tensorflow as tf
+from tensorflow import keras
 
-model = tf.keras.models.load_model('data/models/epochs/ep008-loss0.023-accuracy0.992_20211127-220304.h5')
-
-print(model.weights)
-print()
+(x_train, y_train), (x_test, y_test) = keras.datasets.mnist.load_data()
