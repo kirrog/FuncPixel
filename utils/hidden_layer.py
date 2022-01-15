@@ -1,3 +1,6 @@
+from inspect import Argument
+from typing import List
+
 import numpy
 
 from func.collectors.Plus import Plus
@@ -26,10 +29,16 @@ class HiddenLayerDense:
     def link_layer_as_prev(self, prev_hidden_layer):
         prev = prev_hidden_layer.function_output  # calc number of functions out
         curr = self.function_input  # calc number of arguments in
-        if len(prev) != (len(curr[0])-1):
-            raise Exception('wrong_join_size', "Prev: " + str(len(prev)) + " Curr: " + str(len(curr[0])-1))
+        if len(prev) != (len(curr[0]) - 1):
+            raise Exception('wrong_join_size', "Prev: " + str(len(prev)) + " Curr: " + str(len(curr[0]) - 1))
         j = 0
         for fs in curr:
             for func in fs:
                 func.func = prev[func.pos]
             j += 1
+
+    def calculate(self, data: List[Argument]) -> List[Argument]:
+        res = []
+        for f in range(len(self.function_output)):
+            res.append(Argument(f, self.function_output[f].calculate(data)))
+        return res

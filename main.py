@@ -12,5 +12,6 @@ for i in range(int(len(model.weights)/2)):
         h_next.link_layer_as_prev(h_prev)
         print("Layer linked")
     h_prev = h_next
+model = h_next
 
-print(h_next)
+
