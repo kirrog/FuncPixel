@@ -1,6 +1,7 @@
 from typing import List
 import numpy
 from func.Arg import Argument
+from func.CashFunc import CashFunc
 from func.collectors.Plus import Plus
 from func.functions.Const import Const
 from func.functions.Polynome import Polynome
@@ -32,7 +33,7 @@ class HiddenLayerDense:
         j = 0
         for fs in curr:
             for func in fs:
-                func.func = prev[func.pos]
+                func.func = CashFunc(prev[func.pos])
             j += 1
 
     def calculate(self, data: List[Argument]) -> List[Argument]:
