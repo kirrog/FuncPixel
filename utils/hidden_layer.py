@@ -38,6 +38,9 @@ class HiddenLayerDense:
 
     def calculate(self, data: List[Argument]) -> List[Argument]:
         res = []
+        i = 0
         for f in range(len(self.function_output)):
             res.append(Argument(f, self.function_output[f].calculate(data)))
+            i += 1
+            print("Calculated: " + str(i))
         return res

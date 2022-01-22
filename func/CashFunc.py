@@ -25,7 +25,7 @@ class CashFunc(Function):
         self.setPosit = None
 
     def calculate(self, arg: List[Argument]) -> float:
-        if equality(self.cashArg, arg):
+        if self.cashArg is not None and equality(self.cashArg, arg):
             return self.cashVal
         else:
             self.cashArg = arg

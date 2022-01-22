@@ -20,7 +20,7 @@ model = h_next
 (x_train, y_train), (x_test, y_test) = keras.datasets.mnist.load_data()
 
 accuracy = 0
-
+print("Start work")
 res = calculate_by_layers(model, x_test[0])
 print(res)
 
