@@ -28,8 +28,8 @@ class CashFunc(Function):
         if self.cashArg is not None and equality(self.cashArg, arg):
             return self.cashVal
         else:
-            self.cashArg = arg
             self.cashVal = self.func.calculate(arg)
+            self.cashArg = arg
             return self.cashVal
 
     def differential(self, arg_num: int):

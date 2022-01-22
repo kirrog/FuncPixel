@@ -26,14 +26,17 @@ class HiddenLayerDense:
             self.function_output.append(construct_function(type, p, func))
 
     def link_layer_as_prev(self, prev_hidden_layer):
-        prev = prev_hidden_layer.function_output  # calc number of functions out
+        prev_in = prev_hidden_layer.function_output  # calc number of functions out
         curr = self.function_input  # calc number of arguments in
-        if len(prev) != (len(curr[0]) - 1):
-            raise Exception('wrong_join_size', "Prev: " + str(len(prev)) + " Curr: " + str(len(curr[0]) - 1))
+        if len(prev_in) != (len(curr[0]) - 1):
+            raise Exception('wrong_join_size', "Prev: " + str(len(prev_in)) + " Curr: " + str(len(curr[0]) - 1))
         j = 0
+        prev = []
+        for i in prev_in:
+            prev.append(CashFunc(i))
         for fs in curr:
             for func in fs:
-                func.func = CashFunc(prev[func.pos])
+                func.func = prev[func.pos]
             j += 1
 
     def calculate(self, data: List[Argument]) -> List[Argument]:
