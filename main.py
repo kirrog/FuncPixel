@@ -1,3 +1,5 @@
+import timeit
+
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
@@ -11,5 +13,8 @@ model = create_model_from_arrays(model.weights)
 
 accuracy = 0
 print("Start work")
+start = timeit.default_timer()
 res = calculate_by_layers(model, x_test[0])
+stop = timeit.default_timer()
+print("Time: " + str(stop - start))
 print(res)

@@ -1,0 +1,1 @@
+* With checking formats: 201.908 sec
