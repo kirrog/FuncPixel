@@ -4,7 +4,7 @@ import faiss
 import numpy as np
 from tensorflow import keras
 
-from data_work.data_loader import load_vectors_from_model
+from data_work.data_loader import load_y_point_pred, load_y_grad_pred, load_x_model_vectors
 
 model_vectors_path = "/media/kirrog/data/data/"
 path_point_pred = "point_answ/"
@@ -48,7 +48,9 @@ def transform_to_classes_knn_answers(dist, indexes, train_classes, max_dist=None
 
 (x_train, y_train), (x_test, y_test) = keras.datasets.mnist.load_data()
 # x_vectors = np.array(np.reshape(x_train, (x_train.shape[0], pict_size * pict_size)), dtype=np.float32)
-y_point_pred, y_grad_pred, x_model_vectors_raw = load_vectors_from_model()
+y_point_pred = load_y_point_pred()
+y_grad_pred = load_y_grad_pred()
+x_model_vectors_raw = load_x_model_vectors()
 # x_model_vectors = np.reshape(x_model_vectors_raw,
 #                              (x_model_vectors_raw.shape[0] * x_model_vectors_raw.shape[1],
 #                               pict_size * pict_size))
