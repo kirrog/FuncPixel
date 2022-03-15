@@ -23,6 +23,7 @@ def load_data_from_disk(files_dirs, shape, batch_reshaper, batch_size):
     for i in range(size):
         batch_data = batch_reshaper(np.load(paths[i]))
         data[i * batch_size:(i + 1) * batch_size] = batch_data
+    print(data.shape)
     return data
 
 
