@@ -41,4 +41,12 @@ def load_x_model_vectors():
 
 
 def load_grad_local_minims():
-    return load_data_from_disk(path_grad_local_minims, [classes_number, 2], lambda d: d, 256)
+    return load_data_from_disk(path_grad_local_minims, [classes_number, 2, 2], lambda d: d, 256)[:, :, 0, :]
+
+
+def load_grad_local_minims_and_vals():
+    return load_data_from_disk(path_grad_local_minims, [classes_number, 2, 2], lambda d: d, 256)
+
+
+def load_local_vals():
+    return load_data_from_disk(path_grad_local_minims, [classes_number, 2, 2], lambda d: d, 256)[:, :, 1, :]

@@ -11,7 +11,7 @@ learning_rate = 0.1
 
 
 def calc_from_point_nearest_grad(model, point, class_type):
-    res = np.zeros((2))
+    res = np.zeros((2, 2))
     p_p = np.copy(point)
     p_m = np.copy(point)
     p_p -= learning_rate
@@ -19,11 +19,15 @@ def calc_from_point_nearest_grad(model, point, class_type):
     with  tf.GradientTape() as tape:
         p_p_v = tf.Variable(np.reshape(p_p, newshape=(1, pict_size, pict_size, 1)), shape=(1, pict_size, pict_size, 1))
         loss = lambda: -model(p_p_v)[0, class_type]
-        res[0] = np.sum(np.absolute((tape.gradient(loss(), p_p_v).numpy())))
+        p_res = loss()
+        res[0, 0] = np.sum(np.absolute((tape.gradient(p_res, p_p_v).numpy())))
+        res[1, 0] = -p_res.numpy()
     with  tf.GradientTape() as tape:
         p_m_v = tf.Variable(np.reshape(p_m, newshape=(1, pict_size, pict_size, 1)), shape=(1, pict_size, pict_size, 1))
         loss = lambda: -model(p_m_v)[0, class_type]
-        res[1] = np.sum(np.absolute((tape.gradient(loss(), p_m_v).numpy())))
+        m_res = loss()
+        res[0, 1] = np.sum(np.absolute((tape.gradient(m_res, p_m_v).numpy())))
+        res[1, 1] = -m_res.numpy()
     return res
 
 
@@ -33,7 +37,7 @@ def search_grad_nearest_space_points(model, x_model_vectors, batch_size=256):
     print("Batch: " + str(batch_size))
     time_start_full = timeit.default_timer()
     for i in range(size):
-        res = np.zeros((batch_size, num_of_classes, 2))
+        res = np.zeros((batch_size, num_of_classes, 2, 2))
         for k in range(batch_size):
             time_start = timeit.default_timer()
             for j in range(x_model_vectors.shape[1]):
