@@ -1,11 +1,10 @@
 import time
-import timeit
 
 import numpy as np
 from tensorflow import keras
 import tensorflow as tf
 
-from data_work.data_loader import load_x_model_vectors
+from data_work.data_loader import load_x_model_vectors, load_grad_local_maximums_and_vals
 from utils.model_redact import create_hidden_output_layer, model_redact_with_local_max
 
 
@@ -23,26 +22,25 @@ def change_weights_of_hidden_layer(ouput, weights_matrix, weights_shift):
             weights_matrix[:, i] = 0
 
 
-data = load_x_model_vectors()
-x_0 = data[:, 0, :]
-x_0_pict = np.reshape(x_0, newshape=(x_0.shape[0], 28, 28, 1))
+data_x = load_x_model_vectors()
+data_m_and_v = load_grad_local_maximums_and_vals()
+
+x_pict = np.reshape(data, newshape=(data.shape[0], data.shape[1], 28, 28, 1))
 
 tf.config.set_visible_devices([], 'GPU')
 model = tf.keras.models.load_model('data/models/epochs/ep008-loss0.023-accuracy0.992_20211127-220304.h5')
-a = model.get_weights()
-
 model.summary()
-model_hidden = create_hidden_output_layer(model)
 
-test = np.zeros((1, 28, 28, 1))
-res = model(test)
-print(res)
-start = time.time()
-model_redact_with_local_max(model, x_0_pict[:10000], x_0_pict[10000:])
-stop = time.time()
-print(str(stop - start))
-res = model(test)
-print(res)
+# test = np.zeros((1, 28, 28, 1))
+# res = model(test)
+# print(res)
+# start = time.time()
+# model_redact_with_local_max(model, x_0_pict[:10000], x_0_pict[10000:])
+# stop = time.time()
+# print(str(stop - start))
+# res = model(test)
+# print(res)
+
 # res = model_hidden(test)
 # print(res[-1])
 # a = model.get_weights()

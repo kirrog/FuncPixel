@@ -40,11 +40,11 @@ def load_x_model_vectors():
                                lambda d: np.reshape(d, (batch_size, classes_number, pict_size * pict_size)), 128)
 
 
-def load_grad_local_minims():
+def load_grad_local_maximums():
     return load_data_from_disk(path_grad_local_minims, [classes_number, 2, 2], lambda d: d, 256)[:, :, 0, :]
 
 
-def load_grad_local_minims_and_vals():
+def load_grad_local_maximums_and_vals():
     return load_data_from_disk(path_grad_local_minims, [classes_number, 2, 2], lambda d: d, 256)
 
 

@@ -5,7 +5,7 @@ import numpy as np
 from tensorflow import keras
 import tensorflow as tf
 
-from data_work.data_loader import pict_size, load_grad_local_minims, load_local_vals
+from data_work.data_loader import pict_size, load_grad_local_maximums, load_local_vals
 
 data = load_local_vals()
 limit = 0.5

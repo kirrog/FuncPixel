@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from data_work.data_loader import load_grad_local_minims
+from data_work.data_loader import load_grad_local_maximums
 
-data = load_grad_local_minims()
+data = load_grad_local_maximums()
 limit = 0.0005
 coef = 1000000
 print("Data loaded")
