@@ -7,19 +7,19 @@ import tensorflow as tf
 
 from data_work.data_loader import pict_size, load_grad_local_maximums, load_local_vals
 
-data = load_local_vals()
-limit = 0.5
-coef = 1000
-print("Data loaded")
-res = np.zeros((data.shape[1], coef))
-num = np.zeros(data.shape[1])
-for i in range(data.shape[0]):
-    for j in range(data.shape[1]):
-        value = (data[i, j, 0] + data[i, j, 1]) / 2
-        if value > limit:
-            num[j] += 1
-        res[j, int(value * coef)] += 1
-print(num)
+# data = load_local_vals()
+# limit = 0.5
+# coef = 1000
+# print("Data loaded")
+# res = np.zeros((data.shape[1], coef))
+# num = np.zeros(data.shape[1])
+# for i in range(data.shape[0]):
+#     for j in range(data.shape[1]):
+#         value = (data[i, j, 0] + data[i, j, 1]) / 2
+#         if value > limit:
+#             num[j] += 1
+#         res[j, int(value * coef)] += 1
+# print(num)
 
 # x_number = [x / coef for x in range(coef)]
 # for j in range(data.shape[1]):
@@ -34,3 +34,9 @@ print(num)
 # for i in num:
 #     f.write("| {n:05d} ".format(n=int(i)))
 # f.write("|\n")
+
+r = np.zeros((2,2))
+r_1 = np.zeros((2,2))
+r_1[0,0] = 1
+r += r_1
+print(r)
