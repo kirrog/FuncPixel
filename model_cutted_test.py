@@ -56,7 +56,6 @@ def model_redact_with_local_max(model, trues, falses):
     trues_size = len(trues)
     falses_size = len(falses)
     a = model.get_weights()
-    null_number = 0
     for i in range(size):
         agreg_true = np.zeros(trues[0].output_values[i].shape)
         for j in range(len(trues)):
@@ -74,10 +73,8 @@ def model_redact_with_local_max(model, trues, falses):
         for j in range(agreg_true.shape[0]):
             if agreg_true[j] == 1.0 and agreg_false[j] == 1.0:
                 agreg_false[j] = 0.0
-        null_number += np.sum(agreg_false)
         null_weights_of_hidden_layer(agreg_false, a[i * 2], a[i * 2 + 1])
     model.set_weights(a)
-    return int(null_number)
 
 
 def test_model(model, data_x, data_y):
@@ -97,12 +94,10 @@ def binary_search_by_mnist_validation(mnist_data_x, mnist_data_y, limit, picture
     position = int(size / pow(2, step))
     prev_pose = 0
     while prev_pose != position:
-        null_number = model_redact_with_local_max(model, pictures_data[:position], pictures_data[position:])
+        model_redact_with_local_max(model, pictures_data[:position], pictures_data[position:])
         res = test_model(model, mnist_data_x, mnist_data_y)
-        print(
-            "Search: accuracy: {acc:.06f} val: {v:.06f} grad: {g:.06f} position: {pos:06d} step: {st:02d} nulls: {nul:06d}".format(
-                acc=res, v=pictures_data[position].value, g=pictures_data[position].grad, pos=position, st=step,
-                nul=null_number))
+        print("Search: accuracy: {acc:.06f} val: {v:.06f} grad: {g:.06f} position: {pos:06d} step: {st:02d}".format(
+            acc=res, v=pictures_data[position].value, g=pictures_data[position].grad, pos=position, st=step))
         restore = []
         for i in model_weights_save:
             restore.append(i.copy())
@@ -117,14 +112,24 @@ def binary_search_by_mnist_validation(mnist_data_x, mnist_data_y, limit, picture
             position += int(size / pow(2, step))
 
 
+def binary_search_iteration(mnist_data_x, mnist_data_y, pictures_data, model):
+    size = len(pictures_data)
+    step = 1
+    position = int(size / pow(2, step))
+    prev_pose = 0
+    while prev_pose != position:
+        model_redact_with_local_max(model, pictures_data[:position], pictures_data[position:])
+        res = test_model(model, mnist_data_x, mnist_data_y)
+        print("Search: accuracy: {acc:.06f} val: {v:.06f} grad: {g:.06f} position: {pos:06d} step: {st:02d}".format(
+            acc=res, v=pictures_data[position].value, g=pictures_data[position].grad, pos=position, st=step))
+
+
+
 data_x = load_x_model_vectors()
 data_m_and_v = load_grad_local_maximums_and_vals()
 (mnist_train_x, mnist_train_y), (mnist_test_x, mnist_test_y) = mnist.load_data()
 
-print('X_train: ' + str(mnist_train_x.shape))
-print('Y_train: ' + str(mnist_train_y.shape))
-print('X_test:  ' + str(mnist_test_x.shape))
-print('Y_test:  ' + str(mnist_test_y.shape))
+print("Data loaded")
 
 x_pict = np.reshape(data_x, newshape=(data_x.shape[0], data_x.shape[1], 28, 28, 1))
 assert data_x.shape[0] == data_m_and_v.shape[0]
@@ -164,7 +169,7 @@ print("Model save created")
 for i in range(len(pictures)):
     print("Class: {i:02d}".format(i=i))
     print("Value search")
-    pictures[i].sort(key=lambda pict: pict.value, reverse=True)
+    pictures[i].sort(key=lambda pict: pict.value)
     # binary search throw grad
     binary_search_by_mnist_validation(mnist_test_x, mnist_test_y, default_accuracy - 0.05, pictures[i], model,
                                       save_model_weights)
@@ -174,27 +179,3 @@ for i in range(len(pictures)):
                                       save_model_weights)
     # binary search throw vals
 print("Completed")
-
-# test = np.zeros((1, 28, 28, 1))
-# res = model(test)
-# print(res)
-# start = time.time()
-# model_redact_with_local_max(model, x_0_pict[:10000], x_0_pict[10000:])
-# stop = time.time()
-# print(str(stop - start))
-# res = model(test)
-# print(res)
-
-# res = model_hidden(test)
-# print(res[-1])
-# a = model.get_weights()
-# print(len(res))
-# for i in range(2, len(res) - 1):
-#     print(res[i].shape)
-#     change_weights_of_hidden_layer(res[i], a[(i - 2) * 2], a[(i - 2) * 2 + 1])
-# model.set_weights(a)
-# res = model_hidden(test)
-# print(res[-1])
-# model.weights[6][]
-# res = model(test)
-# print(res)
