@@ -76,9 +76,11 @@ print("Index trained")
 y_grad_pred_line = np.reshape(y_grad_pred, (y_grad_pred.shape[0] * y_grad_pred.shape[1]))
 # vectors = vectors[:10000]
 D, I = index.search(x_model_vectors, topn)
-print(D[0])
+print(D[:2])
+print(I[:2])
 # exit()
 print("Searched")
+exit()
 right = []
 wrong = []
 right_classes_stat = np.zeros(classes_number)
