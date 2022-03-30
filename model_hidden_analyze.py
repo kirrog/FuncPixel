@@ -61,18 +61,21 @@ def model_redact_with_local_max(model, trues, falses):
         agreg_true = np.zeros(trues[0].output_values[i].shape)
         for j in range(len(trues)):
             agreg_true += trues[j].output_values[i]
-        agreg_true /= trues_size
-        agreg_true[agreg_true >= 0.8] = 1.0
-        agreg_true[agreg_true < 0.8] = 0.0
 
         agreg_false = np.zeros(trues[0].output_values[i].shape)
         for j in range(len(falses)):
             agreg_false += falses[j].output_values[i]
-        agreg_false /= falses_size
-        agreg_false[agreg_false >= 0.8] = 1.0
-        agreg_false[agreg_false < 0.8] = 0.0
+
         for j in range(agreg_true.shape[0]):
-            if agreg_true[j] == 1.0 and agreg_false[j] == 1.0:
+            if agreg_true[j] > 0.0 and agreg_false[j] > 0.0 and (agreg_false[j] / falses_size) > (
+                    agreg_true[j] / trues_size):
+                agreg_false[j] = 1.0
+            elif agreg_true[j] < 0.0 and agreg_false[j] < 0.0 and (agreg_false[j] / falses_size) < (
+                    agreg_true[j] / trues_size):
+                agreg_false[j] = 1.0
+            elif abs(agreg_true[j] / trues_size) < 0.2 and abs(agreg_false[j] / falses_size) > 0.8:
+                agreg_false[j] = 1.0
+            else:
                 agreg_false[j] = 0.0
         null_number += np.sum(agreg_false)
         null_weights_of_hidden_layer(agreg_false, a[i * 2], a[i * 2 + 1])

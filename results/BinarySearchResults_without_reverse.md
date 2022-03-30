@@ -1,351 +1,352 @@
+0.9781
+
 Class: 00
 Value search
-Search: accuracy: 0.954500 val: 0.999059 grad: 0.096047 position: 032768 step: 01
-Search: accuracy: 0.944000 val: 0.978944 grad: 1.368850 position: 016384 step: 02
-Search: accuracy: 0.948400 val: 0.644026 grad: 17.968811 position: 008192 step: 03
-Search: accuracy: 0.947300 val: 0.101348 grad: 6.496002 position: 004096 step: 04
-Search: accuracy: 0.947900 val: 0.004272 grad: 0.081396 position: 002048 step: 05
-Search: accuracy: 0.946000 val: 0.000081 grad: 0.004828 position: 001024 step: 06
-Search: accuracy: 0.948700 val: 0.000021 grad: 0.000654 position: 000512 step: 07
-Search: accuracy: 0.948900 val: 0.000009 grad: 0.000256 position: 000256 step: 08
-Search: accuracy: 0.948900 val: 0.000006 grad: 0.000152 position: 000128 step: 09
-Search: accuracy: 0.949500 val: 0.000004 grad: 0.000112 position: 000064 step: 10
-Search: accuracy: 0.951900 val: 0.000003 grad: 0.000080 position: 000032 step: 11
-Search: accuracy: 0.951300 val: 0.000002 grad: 0.000135 position: 000016 step: 12
-Search: accuracy: 0.951300 val: 0.000001 grad: 0.000077 position: 000008 step: 13
-Search: accuracy: 0.951800 val: 0.000001 grad: 0.000044 position: 000004 step: 14
-Search: accuracy: 0.951800 val: 0.000001 grad: 0.000022 position: 000002 step: 15
-Search: accuracy: 0.955400 val: 0.000001 grad: 0.000021 position: 000001 step: 16
+Search: accuracy: 0.978100 val: 0.999059 grad: 0.031845 position: 032768 step: 01 nulls: 000000
+Search: accuracy: 0.978100 val: 0.999909 grad: 0.004893 position: 016384 step: 02 nulls: 000000
+Search: accuracy: 0.978100 val: 0.999973 grad: 0.002466 position: 008192 step: 03 nulls: 000000
+Search: accuracy: 0.978100 val: 0.999987 grad: 0.000529 position: 004096 step: 04 nulls: 000000
+Search: accuracy: 0.978100 val: 0.999992 grad: 0.000224 position: 002048 step: 05 nulls: 000000
+Search: accuracy: 0.978100 val: 0.999995 grad: 0.000186 position: 001024 step: 06 nulls: 000003
+Search: accuracy: 0.978100 val: 0.999996 grad: 0.000097 position: 000512 step: 07 nulls: 000003
+Search: accuracy: 0.978200 val: 0.999996 grad: 0.000076 position: 000256 step: 08 nulls: 000004
+Search: accuracy: 0.978000 val: 0.999997 grad: 0.000040 position: 000128 step: 09 nulls: 000003
+Search: accuracy: 0.977600 val: 0.999997 grad: 0.000046 position: 000064 step: 10 nulls: 000005
+Search: accuracy: 0.977600 val: 0.999998 grad: 0.000029 position: 000032 step: 11 nulls: 000006
+Search: accuracy: 0.977600 val: 0.999998 grad: 0.000038 position: 000016 step: 12 nulls: 000006
+Search: accuracy: 0.977600 val: 0.999998 grad: 0.000038 position: 000008 step: 13 nulls: 000005
+Search: accuracy: 0.977800 val: 0.999998 grad: 0.000022 position: 000004 step: 14 nulls: 000006
+Search: accuracy: 0.976900 val: 0.999998 grad: 0.000018 position: 000002 step: 15 nulls: 000011
+Search: accuracy: 0.977500 val: 0.999999 grad: 0.000012 position: 000001 step: 16 nulls: 000003
 Grad search
-Search: accuracy: 0.978100 val: 0.999435 grad: 0.043791 position: 032768 step: 01
-Search: accuracy: 0.978200 val: 0.999951 grad: 0.003849 position: 016384 step: 02
-Search: accuracy: 0.978200 val: 0.999980 grad: 0.000919 position: 008192 step: 03
-Search: accuracy: 0.978200 val: 0.999991 grad: 0.000367 position: 004096 step: 04
-Search: accuracy: 0.978200 val: 0.999992 grad: 0.000185 position: 002048 step: 05
-Search: accuracy: 0.978200 val: 0.999993 grad: 0.000119 position: 001024 step: 06
-Search: accuracy: 0.978200 val: 0.999995 grad: 0.000081 position: 000512 step: 07
-Search: accuracy: 0.978200 val: 0.999996 grad: 0.000060 position: 000256 step: 08
-Search: accuracy: 0.978200 val: 0.999997 grad: 0.000045 position: 000128 step: 09
-Search: accuracy: 0.978200 val: 0.999997 grad: 0.000037 position: 000064 step: 10
-Search: accuracy: 0.978100 val: 0.000001 grad: 0.000031 position: 000032 step: 11
-Search: accuracy: 0.955400 val: 0.999997 grad: 0.000025 position: 000016 step: 12
-Search: accuracy: 0.955200 val: 0.000001 grad: 0.000022 position: 000008 step: 13
-Search: accuracy: 0.955400 val: 0.999998 grad: 0.000018 position: 000004 step: 14
-Search: accuracy: 0.977900 val: 0.000001 grad: 0.000015 position: 000002 step: 15
-Search: accuracy: 0.977900 val: 0.999999 grad: 0.000014 position: 000001 step: 16
+Search: accuracy: 0.978100 val: 0.999435 grad: 0.043791 position: 032768 step: 01 nulls: 000000
+Search: accuracy: 0.978100 val: 0.999951 grad: 0.003849 position: 016384 step: 02 nulls: 000000
+Search: accuracy: 0.978100 val: 0.999980 grad: 0.000919 position: 008192 step: 03 nulls: 000000
+Search: accuracy: 0.978100 val: 0.999991 grad: 0.000367 position: 004096 step: 04 nulls: 000000
+Search: accuracy: 0.978100 val: 0.999992 grad: 0.000185 position: 002048 step: 05 nulls: 000000
+Search: accuracy: 0.978200 val: 0.999993 grad: 0.000119 position: 001024 step: 06 nulls: 000001
+Search: accuracy: 0.978100 val: 0.999995 grad: 0.000081 position: 000512 step: 07 nulls: 000003
+Search: accuracy: 0.978200 val: 0.999996 grad: 0.000060 position: 000256 step: 08 nulls: 000004
+Search: accuracy: 0.978200 val: 0.999997 grad: 0.000045 position: 000128 step: 09 nulls: 000004
+Search: accuracy: 0.977600 val: 0.999997 grad: 0.000037 position: 000064 step: 10 nulls: 000005
+Search: accuracy: 0.977600 val: 0.000001 grad: 0.000031 position: 000032 step: 11 nulls: 000005
+Search: accuracy: 0.977600 val: 0.999997 grad: 0.000025 position: 000016 step: 12 nulls: 000007
+Search: accuracy: 0.977700 val: 0.000001 grad: 0.000022 position: 000008 step: 13 nulls: 000007
+Search: accuracy: 0.977600 val: 0.999998 grad: 0.000018 position: 000004 step: 14 nulls: 000010
+Search: accuracy: 0.976900 val: 0.000001 grad: 0.000015 position: 000002 step: 15 nulls: 000011
+Search: accuracy: 0.976900 val: 0.999999 grad: 0.000014 position: 000001 step: 16 nulls: 000011
 Class: 01
 Value search
-Search: accuracy: 0.960200 val: 0.866068 grad: 5.981805 position: 032768 step: 01
-Search: accuracy: 0.977900 val: 0.503468 grad: 4.524298 position: 016384 step: 02
-Search: accuracy: 0.977700 val: 0.283704 grad: 6.133179 position: 008192 step: 03
-Search: accuracy: 0.978000 val: 0.164133 grad: 2.533645 position: 004096 step: 04
-Search: accuracy: 0.978000 val: 0.104675 grad: 2.615352 position: 002048 step: 05
-Search: accuracy: 0.978000 val: 0.071156 grad: 1.321243 position: 001024 step: 06
-Search: accuracy: 0.978000 val: 0.050554 grad: 0.966122 position: 000512 step: 07
-Search: accuracy: 0.978400 val: 0.037493 grad: 0.488525 position: 000256 step: 08
-Search: accuracy: 0.978400 val: 0.027644 grad: 0.928768 position: 000128 step: 09
-Search: accuracy: 0.978400 val: 0.021500 grad: 0.281340 position: 000064 step: 10
-Search: accuracy: 0.978400 val: 0.015635 grad: 0.679959 position: 000032 step: 11
-Search: accuracy: 0.978400 val: 0.012145 grad: 0.192379 position: 000016 step: 12
-Search: accuracy: 0.978400 val: 0.009558 grad: 0.231927 position: 000008 step: 13
-Search: accuracy: 0.978000 val: 0.007864 grad: 0.337987 position: 000004 step: 14
-Search: accuracy: 0.978000 val: 0.007109 grad: 0.201809 position: 000002 step: 15
-Search: accuracy: 0.978100 val: 0.006716 grad: 0.144560 position: 000001 step: 16
+Search: accuracy: 0.977800 val: 0.866048 grad: 5.243697 position: 032768 step: 01 nulls: 000015
+Search: accuracy: 0.978000 val: 0.990603 grad: 0.454039 position: 016384 step: 02 nulls: 000006
+Search: accuracy: 0.978200 val: 0.997551 grad: 0.101088 position: 008192 step: 03 nulls: 000002
+Search: accuracy: 0.978000 val: 0.998891 grad: 0.034890 position: 004096 step: 04 nulls: 000002
+Search: accuracy: 0.978000 val: 0.999385 grad: 0.043652 position: 002048 step: 05 nulls: 000002
+Search: accuracy: 0.978200 val: 0.999603 grad: 0.011267 position: 001024 step: 06 nulls: 000002
+Search: accuracy: 0.978300 val: 0.999720 grad: 0.004188 position: 000512 step: 07 nulls: 000004
+Search: accuracy: 0.978200 val: 0.999793 grad: 0.004788 position: 000256 step: 08 nulls: 000006
+Search: accuracy: 0.978200 val: 0.999843 grad: 0.001311 position: 000128 step: 09 nulls: 000011
+Search: accuracy: 0.977900 val: 0.999886 grad: 0.001870 position: 000064 step: 10 nulls: 000020
+Search: accuracy: 0.977500 val: 0.999927 grad: 0.001578 position: 000032 step: 11 nulls: 000029
+Search: accuracy: 0.977300 val: 0.999950 grad: 0.001661 position: 000016 step: 12 nulls: 000032
+Search: accuracy: 0.977500 val: 0.999970 grad: 0.002438 position: 000008 step: 13 nulls: 000030
+Search: accuracy: 0.977000 val: 0.999978 grad: 0.000705 position: 000004 step: 14 nulls: 000036
+Search: accuracy: 0.977200 val: 0.999987 grad: 0.001465 position: 000002 step: 15 nulls: 000039
+Search: accuracy: 0.977300 val: 0.999991 grad: 0.000527 position: 000001 step: 16 nulls: 000036
 Grad search
-Search: accuracy: 0.978100 val: 0.432366 grad: 2.401815 position: 032768 step: 01
-Search: accuracy: 0.978100 val: 0.993113 grad: 0.401214 position: 016384 step: 02
-Search: accuracy: 0.978100 val: 0.997420 grad: 0.097785 position: 008192 step: 03
-Search: accuracy: 0.978100 val: 0.998899 grad: 0.038049 position: 004096 step: 04
-Search: accuracy: 0.978100 val: 0.998980 grad: 0.018005 position: 002048 step: 05
-Search: accuracy: 0.978100 val: 0.999468 grad: 0.010173 position: 001024 step: 06
-Search: accuracy: 0.978100 val: 0.999739 grad: 0.006559 position: 000512 step: 07
-Search: accuracy: 0.978100 val: 0.999699 grad: 0.004429 position: 000256 step: 08
-Search: accuracy: 0.978100 val: 0.999750 grad: 0.003113 position: 000128 step: 09
-Search: accuracy: 0.978100 val: 0.999880 grad: 0.002264 position: 000064 step: 10
-Search: accuracy: 0.978100 val: 0.999861 grad: 0.001766 position: 000032 step: 11
-Search: accuracy: 0.978100 val: 0.999953 grad: 0.001392 position: 000016 step: 12
-Search: accuracy: 0.978100 val: 0.999875 grad: 0.001196 position: 000008 step: 13
-Search: accuracy: 0.978100 val: 0.999973 grad: 0.000978 position: 000004 step: 14
-Search: accuracy: 0.978100 val: 0.999978 grad: 0.000705 position: 000002 step: 15
-Search: accuracy: 0.978100 val: 0.999991 grad: 0.000527 position: 000001 step: 16
+Search: accuracy: 0.977300 val: 0.432366 grad: 2.401815 position: 032768 step: 01 nulls: 000009
+Search: accuracy: 0.978000 val: 0.993113 grad: 0.401214 position: 016384 step: 02 nulls: 000006
+Search: accuracy: 0.978200 val: 0.997420 grad: 0.097785 position: 008192 step: 03 nulls: 000002
+Search: accuracy: 0.978000 val: 0.998899 grad: 0.038049 position: 004096 step: 04 nulls: 000002
+Search: accuracy: 0.978000 val: 0.998980 grad: 0.018005 position: 002048 step: 05 nulls: 000002
+Search: accuracy: 0.978100 val: 0.999468 grad: 0.010173 position: 001024 step: 06 nulls: 000001
+Search: accuracy: 0.978100 val: 0.999739 grad: 0.006559 position: 000512 step: 07 nulls: 000001
+Search: accuracy: 0.978100 val: 0.999699 grad: 0.004429 position: 000256 step: 08 nulls: 000001
+Search: accuracy: 0.978300 val: 0.999750 grad: 0.003113 position: 000128 step: 09 nulls: 000004
+Search: accuracy: 0.978300 val: 0.999880 grad: 0.002264 position: 000064 step: 10 nulls: 000005
+Search: accuracy: 0.978000 val: 0.999861 grad: 0.001766 position: 000032 step: 11 nulls: 000008
+Search: accuracy: 0.978100 val: 0.999953 grad: 0.001392 position: 000016 step: 12 nulls: 000007
+Search: accuracy: 0.978000 val: 0.999875 grad: 0.001196 position: 000008 step: 13 nulls: 000022
+Search: accuracy: 0.977400 val: 0.999973 grad: 0.000978 position: 000004 step: 14 nulls: 000029
+Search: accuracy: 0.977200 val: 0.999978 grad: 0.000705 position: 000002 step: 15 nulls: 000039
+Search: accuracy: 0.977300 val: 0.999991 grad: 0.000527 position: 000001 step: 16 nulls: 000036
 Class: 02
 Value search
-Search: accuracy: 0.941500 val: 0.999742 grad: 0.015482 position: 032768 step: 01
-Search: accuracy: 0.960300 val: 0.991881 grad: 0.451266 position: 016384 step: 02
-Search: accuracy: 0.962000 val: 0.889063 grad: 5.053514 position: 008192 step: 03
-Search: accuracy: 0.964600 val: 0.570081 grad: 9.672270 position: 004096 step: 04
-Search: accuracy: 0.964800 val: 0.245713 grad: 5.732491 position: 002048 step: 05
-Search: accuracy: 0.965600 val: 0.084400 grad: 3.097567 position: 001024 step: 06
-Search: accuracy: 0.965300 val: 0.031107 grad: 2.754089 position: 000512 step: 07
-Search: accuracy: 0.965400 val: 0.011053 grad: 0.920412 position: 000256 step: 08
-Search: accuracy: 0.966900 val: 0.001790 grad: 0.115232 position: 000128 step: 09
-Search: accuracy: 0.967400 val: 0.000046 grad: 0.002340 position: 000064 step: 10
-Search: accuracy: 0.966900 val: 0.000018 grad: 0.000841 position: 000032 step: 11
-Search: accuracy: 0.967200 val: 0.000009 grad: 0.000484 position: 000016 step: 12
-Search: accuracy: 0.967200 val: 0.000005 grad: 0.000229 position: 000008 step: 13
-Search: accuracy: 0.967100 val: 0.000003 grad: 0.000106 position: 000004 step: 14
-Search: accuracy: 0.966900 val: 0.000003 grad: 0.000120 position: 000002 step: 15
-Search: accuracy: 0.967500 val: 0.000003 grad: 0.000113 position: 000001 step: 16
+Search: accuracy: 0.977800 val: 0.999742 grad: 0.018583 position: 032768 step: 01 nulls: 000014
+Search: accuracy: 0.977900 val: 0.999975 grad: 0.000777 position: 016384 step: 02 nulls: 000009
+Search: accuracy: 0.978000 val: 0.999988 grad: 0.000228 position: 008192 step: 03 nulls: 000007
+Search: accuracy: 0.978300 val: 0.999991 grad: 0.000118 position: 004096 step: 04 nulls: 000007
+Search: accuracy: 0.978400 val: 0.999992 grad: 0.000094 position: 002048 step: 05 nulls: 000006
+Search: accuracy: 0.977900 val: 0.999992 grad: 0.000085 position: 001024 step: 06 nulls: 000005
+Search: accuracy: 0.978100 val: 0.999993 grad: 0.000060 position: 000512 step: 07 nulls: 000006
+Search: accuracy: 0.978300 val: 0.999993 grad: 0.000061 position: 000256 step: 08 nulls: 000007
+Search: accuracy: 0.977700 val: 0.999994 grad: 0.000049 position: 000128 step: 09 nulls: 000009
+Search: accuracy: 0.977400 val: 0.999994 grad: 0.000027 position: 000064 step: 10 nulls: 000011
+Search: accuracy: 0.977500 val: 0.999994 grad: 0.000033 position: 000032 step: 11 nulls: 000012
+Search: accuracy: 0.977500 val: 0.999995 grad: 0.000030 position: 000016 step: 12 nulls: 000013
+Search: accuracy: 0.977700 val: 0.999995 grad: 0.000037 position: 000008 step: 13 nulls: 000014
+Search: accuracy: 0.977400 val: 0.999995 grad: 0.000039 position: 000004 step: 14 nulls: 000014
+Search: accuracy: 0.977500 val: 0.999995 grad: 0.000044 position: 000002 step: 15 nulls: 000015
+Search: accuracy: 0.977200 val: 0.999995 grad: 0.000046 position: 000001 step: 16 nulls: 000012
 Grad search
-Search: accuracy: 0.978100 val: 0.999657 grad: 0.012985 position: 032768 step: 01
-Search: accuracy: 0.978100 val: 0.999973 grad: 0.000592 position: 016384 step: 02
-Search: accuracy: 0.978100 val: 0.999985 grad: 0.000155 position: 008192 step: 03
-Search: accuracy: 0.978100 val: 0.999991 grad: 0.000090 position: 004096 step: 04
-Search: accuracy: 0.978100 val: 0.999993 grad: 0.000066 position: 002048 step: 05
-Search: accuracy: 0.978100 val: 0.999993 grad: 0.000053 position: 001024 step: 06
-Search: accuracy: 0.978100 val: 0.999992 grad: 0.000044 position: 000512 step: 07
-Search: accuracy: 0.978100 val: 0.999992 grad: 0.000038 position: 000256 step: 08
-Search: accuracy: 0.978100 val: 0.999994 grad: 0.000033 position: 000128 step: 09
-Search: accuracy: 0.978100 val: 0.999992 grad: 0.000029 position: 000064 step: 10
-Search: accuracy: 0.978100 val: 0.999994 grad: 0.000026 position: 000032 step: 11
-Search: accuracy: 0.978100 val: 0.999994 grad: 0.000023 position: 000016 step: 12
-Search: accuracy: 0.978100 val: 0.999994 grad: 0.000021 position: 000008 step: 13
-Search: accuracy: 0.978100 val: 0.999994 grad: 0.000020 position: 000004 step: 14
-Search: accuracy: 0.978100 val: 0.999993 grad: 0.000019 position: 000002 step: 15
-Search: accuracy: 0.978100 val: 0.999994 grad: 0.000018 position: 000001 step: 16
+Search: accuracy: 0.978200 val: 0.999657 grad: 0.012985 position: 032768 step: 01 nulls: 000012
+Search: accuracy: 0.977800 val: 0.999973 grad: 0.000592 position: 016384 step: 02 nulls: 000010
+Search: accuracy: 0.978000 val: 0.999985 grad: 0.000155 position: 008192 step: 03 nulls: 000006
+Search: accuracy: 0.978100 val: 0.999991 grad: 0.000090 position: 004096 step: 04 nulls: 000005
+Search: accuracy: 0.978000 val: 0.999993 grad: 0.000066 position: 002048 step: 05 nulls: 000004
+Search: accuracy: 0.977900 val: 0.999993 grad: 0.000053 position: 001024 step: 06 nulls: 000003
+Search: accuracy: 0.977900 val: 0.999992 grad: 0.000044 position: 000512 step: 07 nulls: 000003
+Search: accuracy: 0.978000 val: 0.999992 grad: 0.000038 position: 000256 step: 08 nulls: 000004
+Search: accuracy: 0.977900 val: 0.999994 grad: 0.000033 position: 000128 step: 09 nulls: 000003
+Search: accuracy: 0.978000 val: 0.999992 grad: 0.000029 position: 000064 step: 10 nulls: 000004
+Search: accuracy: 0.977900 val: 0.999994 grad: 0.000026 position: 000032 step: 11 nulls: 000008
+Search: accuracy: 0.977600 val: 0.999994 grad: 0.000023 position: 000016 step: 12 nulls: 000007
+Search: accuracy: 0.977600 val: 0.999994 grad: 0.000021 position: 000008 step: 13 nulls: 000011
+Search: accuracy: 0.977700 val: 0.999994 grad: 0.000020 position: 000004 step: 14 nulls: 000012
+Search: accuracy: 0.977700 val: 0.999993 grad: 0.000019 position: 000002 step: 15 nulls: 000012
+Search: accuracy: 0.978200 val: 0.999994 grad: 0.000018 position: 000001 step: 16 nulls: 000004
 Class: 03
 Value search
-Search: accuracy: 0.976400 val: 0.999730 grad: 0.015754 position: 032768 step: 01
-Search: accuracy: 0.977600 val: 0.996833 grad: 0.228180 position: 016384 step: 02
-Search: accuracy: 0.923200 val: 0.983436 grad: 2.368627 position: 008192 step: 03
-Search: accuracy: 0.977900 val: 0.993546 grad: 0.562598 position: 012288 step: 04
-Search: accuracy: 0.920100 val: 0.990050 grad: 1.410350 position: 010240 step: 05
-Search: accuracy: 0.977400 val: 0.992036 grad: 0.305449 position: 011264 step: 06
-Search: accuracy: 0.921400 val: 0.991096 grad: 0.963929 position: 010752 step: 07
-Search: accuracy: 0.920400 val: 0.991587 grad: 1.081460 position: 011008 step: 08
-Search: accuracy: 0.977400 val: 0.991812 grad: 0.401390 position: 011136 step: 09
-Search: accuracy: 0.919100 val: 0.991694 grad: 0.616277 position: 011072 step: 10
-Search: accuracy: 0.977400 val: 0.991761 grad: 0.564887 position: 011104 step: 11
-Search: accuracy: 0.977400 val: 0.991724 grad: 0.826963 position: 011088 step: 12
-Search: accuracy: 0.977400 val: 0.991708 grad: 0.737570 position: 011080 step: 13
-Search: accuracy: 0.919100 val: 0.991702 grad: 0.205446 position: 011076 step: 14
-Search: accuracy: 0.919100 val: 0.991706 grad: 0.287684 position: 011078 step: 15
-Search: accuracy: 0.919100 val: 0.991706 grad: 0.446724 position: 011079 step: 16
+Search: accuracy: 0.978400 val: 0.999730 grad: 0.020254 position: 032768 step: 01 nulls: 000007
+Search: accuracy: 0.978300 val: 0.999987 grad: 0.000729 position: 016384 step: 02 nulls: 000008
+Search: accuracy: 0.977900 val: 0.999998 grad: 0.000049 position: 008192 step: 03 nulls: 000004
+Search: accuracy: 0.977900 val: 0.999999 grad: 0.000024 position: 004096 step: 04 nulls: 000003
+Search: accuracy: 0.977900 val: 0.999999 grad: 0.000010 position: 002048 step: 05 nulls: 000003
+Search: accuracy: 0.978000 val: 1.000000 grad: 0.000004 position: 001024 step: 06 nulls: 000004
+Search: accuracy: 0.978000 val: 1.000000 grad: 0.000004 position: 000512 step: 07 nulls: 000005
+Search: accuracy: 0.978000 val: 1.000000 grad: 0.000003 position: 000256 step: 08 nulls: 000005
+Search: accuracy: 0.978100 val: 1.000000 grad: 0.000002 position: 000128 step: 09 nulls: 000004
+Search: accuracy: 0.978100 val: 1.000000 grad: 0.000002 position: 000064 step: 10 nulls: 000004
+Search: accuracy: 0.978000 val: 1.000000 grad: 0.000004 position: 000032 step: 11 nulls: 000005
+Search: accuracy: 0.978300 val: 1.000000 grad: 0.000002 position: 000016 step: 12 nulls: 000007
+Search: accuracy: 0.978300 val: 1.000000 grad: 0.000002 position: 000008 step: 13 nulls: 000007
+Search: accuracy: 0.978300 val: 1.000000 grad: 0.000002 position: 000004 step: 14 nulls: 000007
+Search: accuracy: 0.977100 val: 1.000000 grad: 0.000002 position: 000002 step: 15 nulls: 000014
+Search: accuracy: 0.977300 val: 1.000000 grad: 0.000001 position: 000001 step: 16 nulls: 000010
 Grad search
-Search: accuracy: 0.978100 val: 0.999854 grad: 0.016172 position: 032768 step: 01
-Search: accuracy: 0.978100 val: 0.999991 grad: 0.000640 position: 016384 step: 02
-Search: accuracy: 0.977900 val: 0.999998 grad: 0.000078 position: 008192 step: 03
-Search: accuracy: 0.977800 val: 0.999999 grad: 0.000021 position: 004096 step: 04
-Search: accuracy: 0.977800 val: 0.999999 grad: 0.000009 position: 002048 step: 05
-Search: accuracy: 0.977800 val: 0.999999 grad: 0.000006 position: 001024 step: 06
-Search: accuracy: 0.977800 val: 1.000000 grad: 0.000004 position: 000512 step: 07
-Search: accuracy: 0.977800 val: 1.000000 grad: 0.000003 position: 000256 step: 08
-Search: accuracy: 0.977800 val: 1.000000 grad: 0.000003 position: 000128 step: 09
-Search: accuracy: 0.977800 val: 1.000000 grad: 0.000002 position: 000064 step: 10
-Search: accuracy: 0.977800 val: 1.000000 grad: 0.000002 position: 000032 step: 11
-Search: accuracy: 0.977800 val: 1.000000 grad: 0.000002 position: 000016 step: 12
-Search: accuracy: 0.977800 val: 1.000000 grad: 0.000002 position: 000008 step: 13
-Search: accuracy: 0.977800 val: 1.000000 grad: 0.000001 position: 000004 step: 14
-Search: accuracy: 0.977800 val: 1.000000 grad: 0.000001 position: 000002 step: 15
-Search: accuracy: 0.978100 val: 1.000000 grad: 0.000001 position: 000001 step: 16
+Search: accuracy: 0.978600 val: 0.999854 grad: 0.016172 position: 032768 step: 01 nulls: 000006
+Search: accuracy: 0.978400 val: 0.999991 grad: 0.000640 position: 016384 step: 02 nulls: 000007
+Search: accuracy: 0.977900 val: 0.999998 grad: 0.000078 position: 008192 step: 03 nulls: 000004
+Search: accuracy: 0.977900 val: 0.999999 grad: 0.000021 position: 004096 step: 04 nulls: 000003
+Search: accuracy: 0.977900 val: 0.999999 grad: 0.000009 position: 002048 step: 05 nulls: 000003
+Search: accuracy: 0.978000 val: 0.999999 grad: 0.000006 position: 001024 step: 06 nulls: 000004
+Search: accuracy: 0.978000 val: 1.000000 grad: 0.000004 position: 000512 step: 07 nulls: 000004
+Search: accuracy: 0.978000 val: 1.000000 grad: 0.000003 position: 000256 step: 08 nulls: 000004
+Search: accuracy: 0.978000 val: 1.000000 grad: 0.000003 position: 000128 step: 09 nulls: 000003
+Search: accuracy: 0.978000 val: 1.000000 grad: 0.000002 position: 000064 step: 10 nulls: 000003
+Search: accuracy: 0.978100 val: 1.000000 grad: 0.000002 position: 000032 step: 11 nulls: 000004
+Search: accuracy: 0.978100 val: 1.000000 grad: 0.000002 position: 000016 step: 12 nulls: 000007
+Search: accuracy: 0.978200 val: 1.000000 grad: 0.000002 position: 000008 step: 13 nulls: 000006
+Search: accuracy: 0.978200 val: 1.000000 grad: 0.000001 position: 000004 step: 14 nulls: 000009
+Search: accuracy: 0.978200 val: 1.000000 grad: 0.000001 position: 000002 step: 15 nulls: 000012
+Search: accuracy: 0.978300 val: 1.000000 grad: 0.000001 position: 000001 step: 16 nulls: 000007
 Class: 04
 Value search
-Search: accuracy: 0.978300 val: 0.036436 grad: 1.544617 position: 032768 step: 01
-Search: accuracy: 0.978300 val: 0.001763 grad: 0.029661 position: 016384 step: 02
-Search: accuracy: 0.978400 val: 0.000160 grad: 0.002325 position: 008192 step: 03
-Search: accuracy: 0.978000 val: 0.000017 grad: 0.000508 position: 004096 step: 04
-Search: accuracy: 0.978100 val: 0.000008 grad: 0.000475 position: 002048 step: 05
-Search: accuracy: 0.978100 val: 0.000005 grad: 0.000085 position: 001024 step: 06
-Search: accuracy: 0.978100 val: 0.000003 grad: 0.000037 position: 000512 step: 07
-Search: accuracy: 0.978100 val: 0.000003 grad: 0.000037 position: 000256 step: 08
-Search: accuracy: 0.978100 val: 0.000002 grad: 0.000062 position: 000128 step: 09
-Search: accuracy: 0.978100 val: 0.000002 grad: 0.000032 position: 000064 step: 10
-Search: accuracy: 0.978100 val: 0.000001 grad: 0.000043 position: 000032 step: 11
-Search: accuracy: 0.978100 val: 0.000001 grad: 0.000034 position: 000016 step: 12
-Search: accuracy: 0.978100 val: 0.000001 grad: 0.000025 position: 000008 step: 13
-Search: accuracy: 0.978100 val: 0.000001 grad: 0.000027 position: 000004 step: 14
-Search: accuracy: 0.978100 val: 0.000001 grad: 0.000016 position: 000002 step: 15
-Search: accuracy: 0.978100 val: 0.000001 grad: 0.000017 position: 000001 step: 16
+Search: accuracy: 0.974000 val: 0.036417 grad: 1.334936 position: 032768 step: 01 nulls: 000056
+Search: accuracy: 0.976400 val: 0.770872 grad: 9.514050 position: 016384 step: 02 nulls: 000033
+Search: accuracy: 0.977200 val: 0.995989 grad: 0.328146 position: 008192 step: 03 nulls: 000018
+Search: accuracy: 0.977200 val: 0.999698 grad: 0.012592 position: 004096 step: 04 nulls: 000015
+Search: accuracy: 0.977500 val: 0.999926 grad: 0.003986 position: 002048 step: 05 nulls: 000013
+Search: accuracy: 0.977400 val: 0.999970 grad: 0.001227 position: 001024 step: 06 nulls: 000013
+Search: accuracy: 0.977400 val: 0.999983 grad: 0.000424 position: 000512 step: 07 nulls: 000013
+Search: accuracy: 0.977500 val: 0.999988 grad: 0.000239 position: 000256 step: 08 nulls: 000014
+Search: accuracy: 0.977400 val: 0.999991 grad: 0.000222 position: 000128 step: 09 nulls: 000017
+Search: accuracy: 0.977400 val: 0.999992 grad: 0.000109 position: 000064 step: 10 nulls: 000017
+Search: accuracy: 0.977400 val: 0.999993 grad: 0.000086 position: 000032 step: 11 nulls: 000017
+Search: accuracy: 0.977400 val: 0.999994 grad: 0.000096 position: 000016 step: 12 nulls: 000017
+Search: accuracy: 0.977400 val: 0.999994 grad: 0.000059 position: 000008 step: 13 nulls: 000017
+Search: accuracy: 0.977400 val: 0.999994 grad: 0.000049 position: 000004 step: 14 nulls: 000018
+Search: accuracy: 0.977400 val: 0.999994 grad: 0.000076 position: 000002 step: 15 nulls: 000018
+Search: accuracy: 0.977400 val: 0.999995 grad: 0.000064 position: 000001 step: 16 nulls: 000018
 Grad search
-Search: accuracy: 0.978400 val: 0.997082 grad: 0.232871 position: 032768 step: 01
-Search: accuracy: 0.978400 val: 0.001447 grad: 0.017738 position: 016384 step: 02
-Search: accuracy: 0.978100 val: 0.999957 grad: 0.001744 position: 008192 step: 03
-Search: accuracy: 0.978100 val: 0.000021 grad: 0.000425 position: 004096 step: 04
-Search: accuracy: 0.978100 val: 0.999988 grad: 0.000188 position: 002048 step: 05
-Search: accuracy: 0.978100 val: 0.000005 grad: 0.000104 position: 001024 step: 06
-Search: accuracy: 0.978100 val: 0.000003 grad: 0.000067 position: 000512 step: 07
-Search: accuracy: 0.978100 val: 0.000002 grad: 0.000049 position: 000256 step: 08
-Search: accuracy: 0.978100 val: 0.000002 grad: 0.000037 position: 000128 step: 09
-Search: accuracy: 0.978100 val: 0.000003 grad: 0.000030 position: 000064 step: 10
-Search: accuracy: 0.978100 val: 0.000001 grad: 0.000024 position: 000032 step: 11
-Search: accuracy: 0.978100 val: 0.000001 grad: 0.000020 position: 000016 step: 12
-Search: accuracy: 0.978100 val: 0.000001 grad: 0.000017 position: 000008 step: 13
-Search: accuracy: 0.978100 val: 0.000001 grad: 0.000016 position: 000004 step: 14
-Search: accuracy: 0.978100 val: 0.000001 grad: 0.000014 position: 000002 step: 15
-Search: accuracy: 0.978100 val: 0.000001 grad: 0.000013 position: 000001 step: 16
+Search: accuracy: 0.979400 val: 0.997082 grad: 0.232871 position: 032768 step: 01 nulls: 000018
+Search: accuracy: 0.979400 val: 0.001447 grad: 0.017738 position: 016384 step: 02 nulls: 000024
+Search: accuracy: 0.979300 val: 0.999957 grad: 0.001744 position: 008192 step: 03 nulls: 000023
+Search: accuracy: 0.979400 val: 0.000021 grad: 0.000425 position: 004096 step: 04 nulls: 000019
+Search: accuracy: 0.979000 val: 0.999988 grad: 0.000188 position: 002048 step: 05 nulls: 000018
+Search: accuracy: 0.979100 val: 0.000005 grad: 0.000104 position: 001024 step: 06 nulls: 000017
+Search: accuracy: 0.978900 val: 0.000003 grad: 0.000067 position: 000512 step: 07 nulls: 000016
+Search: accuracy: 0.978600 val: 0.000002 grad: 0.000049 position: 000256 step: 08 nulls: 000017
+Search: accuracy: 0.978700 val: 0.000002 grad: 0.000037 position: 000128 step: 09 nulls: 000016
+Search: accuracy: 0.978600 val: 0.000003 grad: 0.000030 position: 000064 step: 10 nulls: 000015
+Search: accuracy: 0.978300 val: 0.000001 grad: 0.000024 position: 000032 step: 11 nulls: 000014
+Search: accuracy: 0.978300 val: 0.000001 grad: 0.000020 position: 000016 step: 12 nulls: 000014
+Search: accuracy: 0.978300 val: 0.000001 grad: 0.000017 position: 000008 step: 13 nulls: 000014
+Search: accuracy: 0.979100 val: 0.000001 grad: 0.000016 position: 000004 step: 14 nulls: 000017
+Search: accuracy: 0.979100 val: 0.000001 grad: 0.000014 position: 000002 step: 15 nulls: 000017
+Search: accuracy: 0.979100 val: 0.000001 grad: 0.000013 position: 000001 step: 16 nulls: 000017
 Class: 05
 Value search
-Search: accuracy: 0.966600 val: 0.999841 grad: 0.014009 position: 032768 step: 01
-Search: accuracy: 0.970100 val: 0.997828 grad: 0.115455 position: 016384 step: 02
-Search: accuracy: 0.929000 val: 0.985528 grad: 0.576835 position: 008192 step: 03
-Search: accuracy: 0.938000 val: 0.932628 grad: 3.216356 position: 004096 step: 04
-Search: accuracy: 0.938800 val: 0.781955 grad: 3.307331 position: 002048 step: 05
-Search: accuracy: 0.939500 val: 0.554402 grad: 12.436995 position: 001024 step: 06
-Search: accuracy: 0.939500 val: 0.332281 grad: 6.047614 position: 000512 step: 07
-Search: accuracy: 0.940800 val: 0.168132 grad: 3.654754 position: 000256 step: 08
-Search: accuracy: 0.938400 val: 0.079544 grad: 3.095860 position: 000128 step: 09
-Search: accuracy: 0.938300 val: 0.041297 grad: 1.556312 position: 000064 step: 10
-Search: accuracy: 0.938200 val: 0.017927 grad: 0.490244 position: 000032 step: 11
-Search: accuracy: 0.938300 val: 0.008344 grad: 0.231466 position: 000016 step: 12
-Search: accuracy: 0.938300 val: 0.005820 grad: 0.130846 position: 000008 step: 13
-Search: accuracy: 0.938500 val: 0.003616 grad: 0.064008 position: 000004 step: 14
-Search: accuracy: 0.938800 val: 0.002710 grad: 0.030467 position: 000002 step: 15
-Search: accuracy: 0.938600 val: 0.002173 grad: 0.022266 position: 000001 step: 16
+Search: accuracy: 0.978500 val: 0.999841 grad: 0.006087 position: 032768 step: 01 nulls: 000007
+Search: accuracy: 0.977700 val: 0.999986 grad: 0.000786 position: 016384 step: 02 nulls: 000006
+Search: accuracy: 0.977600 val: 0.999996 grad: 0.000115 position: 008192 step: 03 nulls: 000003
+Search: accuracy: 0.977800 val: 0.999998 grad: 0.000067 position: 004096 step: 04 nulls: 000002
+Search: accuracy: 0.977800 val: 0.999999 grad: 0.000047 position: 002048 step: 05 nulls: 000003
+Search: accuracy: 0.977800 val: 0.999999 grad: 0.000033 position: 001024 step: 06 nulls: 000003
+Search: accuracy: 0.977700 val: 0.999999 grad: 0.000025 position: 000512 step: 07 nulls: 000004
+Search: accuracy: 0.977900 val: 0.999999 grad: 0.000009 position: 000256 step: 08 nulls: 000005
+Search: accuracy: 0.977900 val: 0.999999 grad: 0.000009 position: 000128 step: 09 nulls: 000005
+Search: accuracy: 0.977900 val: 1.000000 grad: 0.000012 position: 000064 step: 10 nulls: 000005
+Search: accuracy: 0.978000 val: 1.000000 grad: 0.000006 position: 000032 step: 11 nulls: 000007
+Search: accuracy: 0.977800 val: 1.000000 grad: 0.000004 position: 000016 step: 12 nulls: 000006
+Search: accuracy: 0.977800 val: 1.000000 grad: 0.000005 position: 000008 step: 13 nulls: 000007
+Search: accuracy: 0.978300 val: 1.000000 grad: 0.000005 position: 000004 step: 14 nulls: 000010
+Search: accuracy: 0.977300 val: 1.000000 grad: 0.000004 position: 000002 step: 15 nulls: 000012
+Search: accuracy: 0.977700 val: 1.000000 grad: 0.000003 position: 000001 step: 16 nulls: 000006
 Grad search
-Search: accuracy: 0.978100 val: 0.999851 grad: 0.009061 position: 032768 step: 01
-Search: accuracy: 0.978100 val: 0.999977 grad: 0.000617 position: 016384 step: 02
-Search: accuracy: 0.978100 val: 0.999997 grad: 0.000138 position: 008192 step: 03
-Search: accuracy: 0.978100 val: 0.999999 grad: 0.000058 position: 004096 step: 04
-Search: accuracy: 0.978100 val: 0.999999 grad: 0.000032 position: 002048 step: 05
-Search: accuracy: 0.978100 val: 0.999999 grad: 0.000019 position: 001024 step: 06
-Search: accuracy: 0.978100 val: 0.999999 grad: 0.000013 position: 000512 step: 07
-Search: accuracy: 0.978100 val: 0.999999 grad: 0.000009 position: 000256 step: 08
-Search: accuracy: 0.978100 val: 0.999999 grad: 0.000007 position: 000128 step: 09
-Search: accuracy: 0.978100 val: 1.000000 grad: 0.000006 position: 000064 step: 10
-Search: accuracy: 0.978100 val: 1.000000 grad: 0.000005 position: 000032 step: 11
-Search: accuracy: 0.978100 val: 1.000000 grad: 0.000004 position: 000016 step: 12
-Search: accuracy: 0.978100 val: 1.000000 grad: 0.000004 position: 000008 step: 13
-Search: accuracy: 0.978100 val: 1.000000 grad: 0.000003 position: 000004 step: 14
-Search: accuracy: 0.978100 val: 1.000000 grad: 0.000003 position: 000002 step: 15
-Search: accuracy: 0.978100 val: 1.000000 grad: 0.000003 position: 000001 step: 16
+Search: accuracy: 0.977900 val: 0.999851 grad: 0.009061 position: 032768 step: 01 nulls: 000005
+Search: accuracy: 0.977700 val: 0.999977 grad: 0.000617 position: 016384 step: 02 nulls: 000006
+Search: accuracy: 0.977900 val: 0.999997 grad: 0.000138 position: 008192 step: 03 nulls: 000004
+Search: accuracy: 0.977800 val: 0.999999 grad: 0.000058 position: 004096 step: 04 nulls: 000002
+Search: accuracy: 0.977800 val: 0.999999 grad: 0.000032 position: 002048 step: 05 nulls: 000003
+Search: accuracy: 0.977700 val: 0.999999 grad: 0.000019 position: 001024 step: 06 nulls: 000004
+Search: accuracy: 0.977700 val: 0.999999 grad: 0.000013 position: 000512 step: 07 nulls: 000004
+Search: accuracy: 0.977700 val: 0.999999 grad: 0.000009 position: 000256 step: 08 nulls: 000004
+Search: accuracy: 0.977700 val: 0.999999 grad: 0.000007 position: 000128 step: 09 nulls: 000004
+Search: accuracy: 0.977700 val: 1.000000 grad: 0.000006 position: 000064 step: 10 nulls: 000004
+Search: accuracy: 0.977900 val: 1.000000 grad: 0.000005 position: 000032 step: 11 nulls: 000005
+Search: accuracy: 0.977800 val: 1.000000 grad: 0.000004 position: 000016 step: 12 nulls: 000003
+Search: accuracy: 0.977700 val: 1.000000 grad: 0.000004 position: 000008 step: 13 nulls: 000003
+Search: accuracy: 0.978100 val: 1.000000 grad: 0.000003 position: 000004 step: 14 nulls: 000002
+Search: accuracy: 0.977700 val: 1.000000 grad: 0.000003 position: 000002 step: 15 nulls: 000012
+Search: accuracy: 0.978200 val: 1.000000 grad: 0.000003 position: 000001 step: 16 nulls: 000008
 Class: 06
 Value search
-Search: accuracy: 0.935000 val: 0.968207 grad: 1.516939 position: 032768 step: 01
-Search: accuracy: 0.937500 val: 0.436775 grad: 12.016871 position: 016384 step: 02
-Search: accuracy: 0.977100 val: 0.098286 grad: 3.981142 position: 008192 step: 03
-Search: accuracy: 0.977100 val: 0.007297 grad: 0.254612 position: 004096 step: 04
-Search: accuracy: 0.976600 val: 0.000023 grad: 0.002102 position: 002048 step: 05
-Search: accuracy: 0.976700 val: 0.000002 grad: 0.000185 position: 001024 step: 06
-Search: accuracy: 0.976800 val: 0.000000 grad: 0.000030 position: 000512 step: 07
-Search: accuracy: 0.977100 val: 0.000000 grad: 0.000007 position: 000256 step: 08
-Search: accuracy: 0.977100 val: 0.000000 grad: 0.000002 position: 000128 step: 09
-Search: accuracy: 0.976900 val: 0.000000 grad: 0.000001 position: 000064 step: 10
-Search: accuracy: 0.977100 val: 0.000000 grad: 0.000001 position: 000032 step: 11
-Search: accuracy: 0.976900 val: 0.000000 grad: 0.000000 position: 000016 step: 12
-Search: accuracy: 0.976900 val: 0.000000 grad: 0.000000 position: 000008 step: 13
-Search: accuracy: 0.976900 val: 0.000000 grad: 0.000000 position: 000004 step: 14
-Search: accuracy: 0.976900 val: 0.000000 grad: 0.000000 position: 000002 step: 15
-Search: accuracy: 0.976900 val: 0.000000 grad: 0.000000 position: 000001 step: 16
+Search: accuracy: 0.940300 val: 0.968203 grad: 1.795440 position: 032768 step: 01 nulls: 000050
+Search: accuracy: 0.976600 val: 0.999464 grad: 0.041454 position: 016384 step: 02 nulls: 000035
+Search: accuracy: 0.976500 val: 0.999950 grad: 0.001322 position: 008192 step: 03 nulls: 000026
+Search: accuracy: 0.976700 val: 0.999987 grad: 0.000328 position: 004096 step: 04 nulls: 000020
+Search: accuracy: 0.976700 val: 0.999993 grad: 0.000124 position: 002048 step: 05 nulls: 000017
+Search: accuracy: 0.977000 val: 0.999995 grad: 0.000124 position: 001024 step: 06 nulls: 000015
+Search: accuracy: 0.976900 val: 0.999996 grad: 0.000072 position: 000512 step: 07 nulls: 000014
+Search: accuracy: 0.976900 val: 0.999997 grad: 0.000039 position: 000256 step: 08 nulls: 000015
+Search: accuracy: 0.976900 val: 0.999997 grad: 0.000039 position: 000128 step: 09 nulls: 000015
+Search: accuracy: 0.977000 val: 0.999997 grad: 0.000033 position: 000064 step: 10 nulls: 000016
+Search: accuracy: 0.977100 val: 0.999997 grad: 0.000032 position: 000032 step: 11 nulls: 000017
+Search: accuracy: 0.977200 val: 0.999998 grad: 0.000039 position: 000016 step: 12 nulls: 000018
+Search: accuracy: 0.976700 val: 0.999998 grad: 0.000020 position: 000008 step: 13 nulls: 000017
+Search: accuracy: 0.976900 val: 0.999998 grad: 0.000019 position: 000004 step: 14 nulls: 000017
+Search: accuracy: 0.976600 val: 0.999998 grad: 0.000035 position: 000002 step: 15 nulls: 000021
+Search: accuracy: 0.976900 val: 0.999998 grad: 0.000017 position: 000001 step: 16 nulls: 000012
 Grad search
-Search: accuracy: 0.977200 val: 0.021620 grad: 0.534096 position: 032768 step: 01
-Search: accuracy: 0.977700 val: 0.999542 grad: 0.016023 position: 016384 step: 02
-Search: accuracy: 0.977300 val: 0.999972 grad: 0.001226 position: 008192 step: 03
-Search: accuracy: 0.977500 val: 0.999991 grad: 0.000250 position: 004096 step: 04
-Search: accuracy: 0.977700 val: 0.999996 grad: 0.000097 position: 002048 step: 05
-Search: accuracy: 0.977300 val: 0.999996 grad: 0.000052 position: 001024 step: 06
-Search: accuracy: 0.976700 val: 0.000001 grad: 0.000027 position: 000512 step: 07
-Search: accuracy: 0.977100 val: 0.000000 grad: 0.000008 position: 000256 step: 08
-Search: accuracy: 0.977100 val: 0.000000 grad: 0.000003 position: 000128 step: 09
-Search: accuracy: 0.977100 val: 0.000000 grad: 0.000001 position: 000064 step: 10
-Search: accuracy: 0.977100 val: 0.000000 grad: 0.000001 position: 000032 step: 11
-Search: accuracy: 0.976900 val: 0.000000 grad: 0.000000 position: 000016 step: 12
-Search: accuracy: 0.976900 val: 0.000000 grad: 0.000000 position: 000008 step: 13
-Search: accuracy: 0.976900 val: 0.000000 grad: 0.000000 position: 000004 step: 14
-Search: accuracy: 0.976900 val: 0.000000 grad: 0.000000 position: 000002 step: 15
-Search: accuracy: 0.976900 val: 0.000000 grad: 0.000000 position: 000001 step: 16
+Search: accuracy: 0.943500 val: 0.021620 grad: 0.534096 position: 032768 step: 01 nulls: 000052
+Search: accuracy: 0.976100 val: 0.999542 grad: 0.016023 position: 016384 step: 02 nulls: 000036
+Search: accuracy: 0.976500 val: 0.999972 grad: 0.001226 position: 008192 step: 03 nulls: 000027
+Search: accuracy: 0.976400 val: 0.999991 grad: 0.000250 position: 004096 step: 04 nulls: 000024
+Search: accuracy: 0.948700 val: 0.999996 grad: 0.000097 position: 002048 step: 05 nulls: 000055
+Search: accuracy: 0.942300 val: 0.999996 grad: 0.000052 position: 001024 step: 06 nulls: 000067
+Search: accuracy: 0.941600 val: 0.000001 grad: 0.000027 position: 000512 step: 07 nulls: 000066
+Search: accuracy: 0.941100 val: 0.000000 grad: 0.000008 position: 000256 step: 08 nulls: 000065
+Search: accuracy: 0.941200 val: 0.000000 grad: 0.000003 position: 000128 step: 09 nulls: 000064
+Search: accuracy: 0.941600 val: 0.000000 grad: 0.000001 position: 000064 step: 10 nulls: 000066
+Search: accuracy: 0.941100 val: 0.000000 grad: 0.000001 position: 000032 step: 11 nulls: 000068
+Search: accuracy: 0.941100 val: 0.000000 grad: 0.000000 position: 000016 step: 12 nulls: 000069
+Search: accuracy: 0.940700 val: 0.000000 grad: 0.000000 position: 000008 step: 13 nulls: 000070
+Search: accuracy: 0.941300 val: 0.000000 grad: 0.000000 position: 000004 step: 14 nulls: 000072
+Search: accuracy: 0.942100 val: 0.000000 grad: 0.000000 position: 000002 step: 15 nulls: 000074
+Search: accuracy: 0.942100 val: 0.000000 grad: 0.000000 position: 000001 step: 16 nulls: 000074
 Class: 07
 Value search
-Search: accuracy: 0.891400 val: 0.886824 grad: 3.874739 position: 032768 step: 01
-Search: accuracy: 0.882100 val: 0.999382 grad: 0.035767 position: 049152 step: 02
-Search: accuracy: 0.884500 val: 0.999968 grad: 0.002459 position: 057344 step: 03
-Search: accuracy: 0.873500 val: 0.999992 grad: 0.000156 position: 061440 step: 04
-Search: accuracy: 0.855400 val: 0.999995 grad: 0.000055 position: 063488 step: 05
-Search: accuracy: 0.833700 val: 0.999996 grad: 0.000076 position: 064512 step: 06
-Search: accuracy: 0.825100 val: 0.999997 grad: 0.000030 position: 065024 step: 07
-Search: accuracy: 0.810500 val: 0.999997 grad: 0.000036 position: 065280 step: 08
-Search: accuracy: 0.789700 val: 0.999998 grad: 0.000025 position: 065408 step: 09
-Search: accuracy: 0.823300 val: 0.999998 grad: 0.000021 position: 065472 step: 10
-Search: accuracy: 0.813400 val: 0.999998 grad: 0.000031 position: 065504 step: 11
-Search: accuracy: 0.780500 val: 0.999998 grad: 0.000020 position: 065520 step: 12
-Search: accuracy: 0.813500 val: 0.999998 grad: 0.000018 position: 065528 step: 13
-Search: accuracy: 0.710400 val: 0.999998 grad: 0.000015 position: 065532 step: 14
-Search: accuracy: 0.597100 val: 0.999998 grad: 0.000021 position: 065534 step: 15
-Search: accuracy: 0.531200 val: 0.999998 grad: 0.000018 position: 065535 step: 16
+Search: accuracy: 0.959800 val: 0.886817 grad: 7.473286 position: 032768 step: 01 nulls: 000074
+Search: accuracy: 0.975000 val: 0.999382 grad: 0.030420 position: 016384 step: 02 nulls: 000046
+Search: accuracy: 0.976700 val: 0.999968 grad: 0.002238 position: 008192 step: 03 nulls: 000028
+Search: accuracy: 0.977100 val: 0.999992 grad: 0.000223 position: 004096 step: 04 nulls: 000020
+Search: accuracy: 0.977500 val: 0.999995 grad: 0.000060 position: 002048 step: 05 nulls: 000018
+Search: accuracy: 0.976900 val: 0.999996 grad: 0.000076 position: 001024 step: 06 nulls: 000016
+Search: accuracy: 0.976800 val: 0.999997 grad: 0.000038 position: 000512 step: 07 nulls: 000017
+Search: accuracy: 0.976700 val: 0.999997 grad: 0.000015 position: 000256 step: 08 nulls: 000016
+Search: accuracy: 0.976700 val: 0.999998 grad: 0.000018 position: 000128 step: 09 nulls: 000017
+Search: accuracy: 0.976700 val: 0.999998 grad: 0.000026 position: 000064 step: 10 nulls: 000017
+Search: accuracy: 0.976700 val: 0.999998 grad: 0.000015 position: 000032 step: 11 nulls: 000017
+Search: accuracy: 0.976700 val: 0.999998 grad: 0.000022 position: 000016 step: 12 nulls: 000017
+Search: accuracy: 0.976700 val: 0.999998 grad: 0.000014 position: 000008 step: 13 nulls: 000017
+Search: accuracy: 0.976700 val: 0.999998 grad: 0.000016 position: 000004 step: 14 nulls: 000017
+Search: accuracy: 0.976700 val: 0.999998 grad: 0.000011 position: 000002 step: 15 nulls: 000016
+Search: accuracy: 0.977300 val: 0.999998 grad: 0.000021 position: 000001 step: 16 nulls: 000015
 Grad search
-Search: accuracy: 0.977500 val: 0.977519 grad: 1.259322 position: 032768 step: 01
-Search: accuracy: 0.978200 val: 0.000701 grad: 0.025888 position: 016384 step: 02
-Search: accuracy: 0.978100 val: 0.999980 grad: 0.001046 position: 008192 step: 03
-Search: accuracy: 0.978100 val: 0.999993 grad: 0.000174 position: 004096 step: 04
-Search: accuracy: 0.978100 val: 0.999995 grad: 0.000068 position: 002048 step: 05
-Search: accuracy: 0.978100 val: 0.999996 grad: 0.000042 position: 001024 step: 06
-Search: accuracy: 0.978100 val: 0.999997 grad: 0.000031 position: 000512 step: 07
-Search: accuracy: 0.978100 val: 0.999998 grad: 0.000023 position: 000256 step: 08
-Search: accuracy: 0.978100 val: 0.999997 grad: 0.000019 position: 000128 step: 09
-Search: accuracy: 0.978100 val: 0.000001 grad: 0.000016 position: 000064 step: 10
-Search: accuracy: 0.978100 val: 0.999998 grad: 0.000015 position: 000032 step: 11
-Search: accuracy: 0.978100 val: 0.999997 grad: 0.000013 position: 000016 step: 12
-Search: accuracy: 0.978100 val: 0.999997 grad: 0.000012 position: 000008 step: 13
-Search: accuracy: 0.978100 val: 0.999997 grad: 0.000011 position: 000004 step: 14
-Search: accuracy: 0.978100 val: 0.999998 grad: 0.000011 position: 000002 step: 15
-Search: accuracy: 0.978100 val: 0.999998 grad: 0.000010 position: 000001 step: 16
+Search: accuracy: 0.960800 val: 0.977519 grad: 1.259322 position: 032768 step: 01 nulls: 000067
+Search: accuracy: 0.975100 val: 0.000701 grad: 0.025888 position: 016384 step: 02 nulls: 000045
+Search: accuracy: 0.976700 val: 0.999980 grad: 0.001046 position: 008192 step: 03 nulls: 000028
+Search: accuracy: 0.977100 val: 0.999993 grad: 0.000174 position: 004096 step: 04 nulls: 000020
+Search: accuracy: 0.977500 val: 0.999995 grad: 0.000068 position: 002048 step: 05 nulls: 000018
+Search: accuracy: 0.976900 val: 0.999996 grad: 0.000042 position: 001024 step: 06 nulls: 000016
+Search: accuracy: 0.976900 val: 0.999997 grad: 0.000031 position: 000512 step: 07 nulls: 000016
+Search: accuracy: 0.976600 val: 0.999998 grad: 0.000023 position: 000256 step: 08 nulls: 000015
+Search: accuracy: 0.976600 val: 0.999997 grad: 0.000019 position: 000128 step: 09 nulls: 000015
+Search: accuracy: 0.976600 val: 0.000001 grad: 0.000016 position: 000064 step: 10 nulls: 000015
+Search: accuracy: 0.976600 val: 0.999998 grad: 0.000015 position: 000032 step: 11 nulls: 000016
+Search: accuracy: 0.976600 val: 0.999997 grad: 0.000013 position: 000016 step: 12 nulls: 000015
+Search: accuracy: 0.976700 val: 0.999997 grad: 0.000012 position: 000008 step: 13 nulls: 000017
+Search: accuracy: 0.976700 val: 0.999997 grad: 0.000011 position: 000004 step: 14 nulls: 000017
+Search: accuracy: 0.976900 val: 0.999998 grad: 0.000011 position: 000002 step: 15 nulls: 000018
+Search: accuracy: 0.976600 val: 0.999998 grad: 0.000010 position: 000001 step: 16 nulls: 000016
 Class: 08
 Value search
-Search: accuracy: 0.933900 val: 0.995466 grad: 0.141234 position: 032768 step: 01
-Search: accuracy: 0.936300 val: 0.825889 grad: 11.311359 position: 016384 step: 02
-Search: accuracy: 0.933400 val: 0.295881 grad: 8.156356 position: 008192 step: 03
-Search: accuracy: 0.932800 val: 0.093927 grad: 3.533765 position: 004096 step: 04
-Search: accuracy: 0.977900 val: 0.036198 grad: 0.508794 position: 002048 step: 05
-Search: accuracy: 0.977200 val: 0.021007 grad: 0.207080 position: 001024 step: 06
-Search: accuracy: 0.976900 val: 0.015226 grad: 0.630311 position: 000512 step: 07
-Search: accuracy: 0.976600 val: 0.010894 grad: 0.162393 position: 000256 step: 08
-Search: accuracy: 0.976800 val: 0.008104 grad: 0.063944 position: 000128 step: 09
-Search: accuracy: 0.976500 val: 0.005958 grad: 0.115834 position: 000064 step: 10
-Search: accuracy: 0.976300 val: 0.004632 grad: 0.102064 position: 000032 step: 11
-Search: accuracy: 0.976300 val: 0.004008 grad: 0.032207 position: 000016 step: 12
-Search: accuracy: 0.976300 val: 0.003358 grad: 0.043505 position: 000008 step: 13
-Search: accuracy: 0.976300 val: 0.003045 grad: 0.034680 position: 000004 step: 14
-Search: accuracy: 0.976500 val: 0.002927 grad: 0.027241 position: 000002 step: 15
-Search: accuracy: 0.976300 val: 0.002539 grad: 0.024181 position: 000001 step: 16
+Search: accuracy: 0.978500 val: 0.995464 grad: 0.351765 position: 032768 step: 01 nulls: 000018
+Search: accuracy: 0.978700 val: 0.999727 grad: 0.007379 position: 016384 step: 02 nulls: 000009
+Search: accuracy: 0.978900 val: 0.999933 grad: 0.002127 position: 008192 step: 03 nulls: 000006
+Search: accuracy: 0.978900 val: 0.999969 grad: 0.001193 position: 004096 step: 04 nulls: 000006
+Search: accuracy: 0.978700 val: 0.999981 grad: 0.000381 position: 002048 step: 05 nulls: 000004
+Search: accuracy: 0.978700 val: 0.999986 grad: 0.000225 position: 001024 step: 06 nulls: 000004
+Search: accuracy: 0.978400 val: 0.999989 grad: 0.000238 position: 000512 step: 07 nulls: 000003
+Search: accuracy: 0.978400 val: 0.999990 grad: 0.000120 position: 000256 step: 08 nulls: 000003
+Search: accuracy: 0.978400 val: 0.999991 grad: 0.000112 position: 000128 step: 09 nulls: 000003
+Search: accuracy: 0.978400 val: 0.999992 grad: 0.000092 position: 000064 step: 10 nulls: 000003
+Search: accuracy: 0.978400 val: 0.999993 grad: 0.000101 position: 000032 step: 11 nulls: 000003
+Search: accuracy: 0.978400 val: 0.999994 grad: 0.000168 position: 000016 step: 12 nulls: 000003
+Search: accuracy: 0.978400 val: 0.999994 grad: 0.000121 position: 000008 step: 13 nulls: 000003
+Search: accuracy: 0.978500 val: 0.999994 grad: 0.000088 position: 000004 step: 14 nulls: 000004
+Search: accuracy: 0.978400 val: 0.999995 grad: 0.000056 position: 000002 step: 15 nulls: 000002
+Search: accuracy: 0.978300 val: 0.999995 grad: 0.000069 position: 000001 step: 16 nulls: 000001
 Grad search
-Search: accuracy: 0.978000 val: 0.018895 grad: 0.256545 position: 032768 step: 01
-Search: accuracy: 0.978100 val: 0.999795 grad: 0.015099 position: 016384 step: 02
-Search: accuracy: 0.978100 val: 0.999929 grad: 0.002614 position: 008192 step: 03
-Search: accuracy: 0.978100 val: 0.999974 grad: 0.000876 position: 004096 step: 04
-Search: accuracy: 0.978100 val: 0.999986 grad: 0.000435 position: 002048 step: 05
-Search: accuracy: 0.978000 val: 0.999983 grad: 0.000265 position: 001024 step: 06
-Search: accuracy: 0.978100 val: 0.999982 grad: 0.000188 position: 000512 step: 07
-Search: accuracy: 0.978100 val: 0.999987 grad: 0.000145 position: 000256 step: 08
-Search: accuracy: 0.978000 val: 0.999993 grad: 0.000120 position: 000128 step: 09
-Search: accuracy: 0.978100 val: 0.999991 grad: 0.000105 position: 000064 step: 10
-Search: accuracy: 0.978100 val: 0.999992 grad: 0.000092 position: 000032 step: 11
-Search: accuracy: 0.978100 val: 0.999992 grad: 0.000085 position: 000016 step: 12
-Search: accuracy: 0.978100 val: 0.999994 grad: 0.000075 position: 000008 step: 13
-Search: accuracy: 0.978200 val: 0.999994 grad: 0.000069 position: 000004 step: 14
-Search: accuracy: 0.978200 val: 0.999994 grad: 0.000062 position: 000002 step: 15
-Search: accuracy: 0.978200 val: 0.999993 grad: 0.000062 position: 000001 step: 16
+Search: accuracy: 0.978700 val: 0.018895 grad: 0.256545 position: 032768 step: 01 nulls: 000015
+Search: accuracy: 0.978700 val: 0.999795 grad: 0.015099 position: 016384 step: 02 nulls: 000008
+Search: accuracy: 0.979000 val: 0.999929 grad: 0.002614 position: 008192 step: 03 nulls: 000005
+Search: accuracy: 0.978900 val: 0.999974 grad: 0.000876 position: 004096 step: 04 nulls: 000006
+Search: accuracy: 0.978700 val: 0.999986 grad: 0.000435 position: 002048 step: 05 nulls: 000004
+Search: accuracy: 0.978700 val: 0.999983 grad: 0.000265 position: 001024 step: 06 nulls: 000004
+Search: accuracy: 0.978400 val: 0.999982 grad: 0.000188 position: 000512 step: 07 nulls: 000003
+Search: accuracy: 0.978400 val: 0.999987 grad: 0.000145 position: 000256 step: 08 nulls: 000003
+Search: accuracy: 0.978400 val: 0.999993 grad: 0.000120 position: 000128 step: 09 nulls: 000003
+Search: accuracy: 0.978400 val: 0.999991 grad: 0.000105 position: 000064 step: 10 nulls: 000003
+Search: accuracy: 0.978400 val: 0.999992 grad: 0.000092 position: 000032 step: 11 nulls: 000003
+Search: accuracy: 0.978500 val: 0.999992 grad: 0.000085 position: 000016 step: 12 nulls: 000004
+Search: accuracy: 0.978500 val: 0.999994 grad: 0.000075 position: 000008 step: 13 nulls: 000004
+Search: accuracy: 0.978400 val: 0.999994 grad: 0.000069 position: 000004 step: 14 nulls: 000003
+Search: accuracy: 0.978400 val: 0.999994 grad: 0.000062 position: 000002 step: 15 nulls: 000009
+Search: accuracy: 0.978500 val: 0.999993 grad: 0.000062 position: 000001 step: 16 nulls: 000007
 Class: 09
 Value search
-Search: accuracy: 0.895900 val: 0.515202 grad: 12.336699 position: 032768 step: 01
-Search: accuracy: 0.887200 val: 0.950776 grad: 2.095645 position: 049152 step: 02
-Search: accuracy: 0.889400 val: 0.991852 grad: 0.361519 position: 057344 step: 03
-Search: accuracy: 0.887600 val: 0.997713 grad: 0.083123 position: 061440 step: 04
-Search: accuracy: 0.886300 val: 0.999123 grad: 0.023656 position: 063488 step: 05
-Search: accuracy: 0.887400 val: 0.999590 grad: 0.010781 position: 064512 step: 06
-Search: accuracy: 0.888900 val: 0.999782 grad: 0.006269 position: 065024 step: 07
-Search: accuracy: 0.885800 val: 0.999852 grad: 0.003689 position: 065280 step: 08
-Search: accuracy: 0.882100 val: 0.999894 grad: 0.002969 position: 065408 step: 09
-Search: accuracy: 0.875900 val: 0.999922 grad: 0.003137 position: 065472 step: 10
-Search: accuracy: 0.838100 val: 0.999936 grad: 0.000819 position: 065504 step: 11
-Search: accuracy: 0.770700 val: 0.999947 grad: 0.001239 position: 065520 step: 12
-Search: accuracy: 0.736400 val: 0.999956 grad: 0.000654 position: 065528 step: 13
-Search: accuracy: 0.780800 val: 0.999961 grad: 0.000644 position: 065532 step: 14
-Search: accuracy: 0.646800 val: 0.999964 grad: 0.000416 position: 065534 step: 15
-Search: accuracy: 0.445000 val: 0.999967 grad: 0.000374 position: 065535 step: 16
+Search: accuracy: 0.975100 val: 0.515189 grad: 8.057961 position: 032768 step: 01 nulls: 000052
+Search: accuracy: 0.977100 val: 0.950763 grad: 1.918142 position: 016384 step: 02 nulls: 000025
+Search: accuracy: 0.977600 val: 0.991850 grad: 0.325177 position: 008192 step: 03 nulls: 000017
+Search: accuracy: 0.977500 val: 0.997711 grad: 0.121648 position: 004096 step: 04 nulls: 000017
+Search: accuracy: 0.977500 val: 0.999122 grad: 0.032375 position: 002048 step: 05 nulls: 000015
+Search: accuracy: 0.977500 val: 0.999590 grad: 0.020211 position: 001024 step: 06 nulls: 000016
+Search: accuracy: 0.977400 val: 0.999781 grad: 0.007160 position: 000512 step: 07 nulls: 000016
+Search: accuracy: 0.977100 val: 0.999852 grad: 0.004950 position: 000256 step: 08 nulls: 000017
+Search: accuracy: 0.977400 val: 0.999894 grad: 0.001915 position: 000128 step: 09 nulls: 000016
+Search: accuracy: 0.977100 val: 0.999921 grad: 0.001914 position: 000064 step: 10 nulls: 000017
+Search: accuracy: 0.977400 val: 0.999935 grad: 0.001467 position: 000032 step: 11 nulls: 000016
+Search: accuracy: 0.977400 val: 0.999947 grad: 0.001344 position: 000016 step: 12 nulls: 000016
+Search: accuracy: 0.976900 val: 0.999954 grad: 0.000938 position: 000008 step: 13 nulls: 000014
+Search: accuracy: 0.977800 val: 0.999961 grad: 0.000695 position: 000004 step: 14 nulls: 000016
+Search: accuracy: 0.977800 val: 0.999961 grad: 0.000434 position: 000002 step: 15 nulls: 000017
+Search: accuracy: 0.977800 val: 0.999964 grad: 0.000416 position: 000001 step: 16 nulls: 000015
 Grad search
-Search: accuracy: 0.977800 val: 0.970006 grad: 1.452140 position: 032768 step: 01
-Search: accuracy: 0.977600 val: 0.019059 grad: 0.349732 position: 016384 step: 02
-Search: accuracy: 0.977200 val: 0.995854 grad: 0.118668 position: 008192 step: 03
-Search: accuracy: 0.977200 val: 0.998982 grad: 0.033118 position: 004096 step: 04
-Search: accuracy: 0.977200 val: 0.001315 grad: 0.011242 position: 002048 step: 05
-Search: accuracy: 0.977700 val: 0.999774 grad: 0.005429 position: 001024 step: 06
-Search: accuracy: 0.977700 val: 0.000639 grad: 0.003300 position: 000512 step: 07
-Search: accuracy: 0.977900 val: 0.999800 grad: 0.002398 position: 000256 step: 08
-Search: accuracy: 0.977900 val: 0.000399 grad: 0.001834 position: 000128 step: 09
-Search: accuracy: 0.978100 val: 0.000172 grad: 0.001468 position: 000064 step: 10
-Search: accuracy: 0.978000 val: 0.999948 grad: 0.001211 position: 000032 step: 11
-Search: accuracy: 0.978100 val: 0.999953 grad: 0.000882 position: 000016 step: 12
-Search: accuracy: 0.978100 val: 0.999956 grad: 0.000654 position: 000008 step: 13
-Search: accuracy: 0.977900 val: 0.999940 grad: 0.000619 position: 000004 step: 14
-Search: accuracy: 0.978100 val: 0.999961 grad: 0.000434 position: 000002 step: 15
-Search: accuracy: 0.978100 val: 0.999964 grad: 0.000416 position: 000001 step: 16
-Completed
+Search: accuracy: 0.978500 val: 0.970006 grad: 1.452140 position: 032768 step: 01 nulls: 000009
+Search: accuracy: 0.978200 val: 0.019059 grad: 0.349732 position: 016384 step: 02 nulls: 000018
+Search: accuracy: 0.977500 val: 0.995854 grad: 0.118668 position: 008192 step: 03 nulls: 000035
+Search: accuracy: 0.977500 val: 0.998982 grad: 0.033118 position: 004096 step: 04 nulls: 000043
+Search: accuracy: 0.977400 val: 0.001315 grad: 0.011242 position: 002048 step: 05 nulls: 000039
+Search: accuracy: 0.977400 val: 0.999774 grad: 0.005429 position: 001024 step: 06 nulls: 000039
+Search: accuracy: 0.977400 val: 0.000639 grad: 0.003300 position: 000512 step: 07 nulls: 000039
+Search: accuracy: 0.977000 val: 0.999800 grad: 0.002398 position: 000256 step: 08 nulls: 000041
+Search: accuracy: 0.977400 val: 0.000399 grad: 0.001834 position: 000128 step: 09 nulls: 000040
+Search: accuracy: 0.977700 val: 0.000172 grad: 0.001468 position: 000064 step: 10 nulls: 000019
+Search: accuracy: 0.978000 val: 0.999948 grad: 0.001211 position: 000032 step: 11 nulls: 000018
+Search: accuracy: 0.978000 val: 0.999953 grad: 0.000882 position: 000016 step: 12 nulls: 000018
+Search: accuracy: 0.978000 val: 0.999956 grad: 0.000654 position: 000008 step: 13 nulls: 000018
+Search: accuracy: 0.977800 val: 0.999940 grad: 0.000619 position: 000004 step: 14 nulls: 000017
+Search: accuracy: 0.977800 val: 0.999961 grad: 0.000434 position: 000002 step: 15 nulls: 000017
+Search: accuracy: 0.977800 val: 0.999964 grad: 0.000416 position: 000001 step: 16 nulls: 000015
