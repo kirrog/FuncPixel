@@ -1,3 +1,4 @@
+import math
 import sys
 import time
 
@@ -53,8 +54,8 @@ def null_weights_of_hidden_layer(output, weights_matrix, weights_shift):
 
 def model_redact_with_local_max(model, trues, falses):
     size = len(trues[0].output_values)
-    trues_size = len(trues)
-    falses_size = len(falses)
+    trues_coef = math.log2(len(trues)) / len(trues)
+    falses_coef = math.log2(len(falses)) / len(falses)
     a = model.get_weights()
     null_number = []
     for i in range(size):
@@ -67,13 +68,13 @@ def model_redact_with_local_max(model, trues, falses):
             agreg_false += falses[j].output_values[i]
 
         for j in range(agreg_true.shape[0]):
-            if agreg_true[j] > 0.0 and agreg_false[j] > 0.0 and (agreg_false[j] / falses_size) > (
-                    agreg_true[j] / trues_size):
+            if agreg_true[j] > 0.0 and agreg_false[j] > 0.0 and (agreg_false[j] * falses_coef) > (
+                    agreg_true[j] * trues_coef):
                 agreg_false[j] = 1.0
-            elif agreg_true[j] < 0.0 and agreg_false[j] < 0.0 and (agreg_false[j] / falses_size) < (
-                    agreg_true[j] / trues_size):
+            elif agreg_true[j] < 0.0 and agreg_false[j] < 0.0 and (agreg_false[j] * falses_coef) < (
+                    agreg_true[j] * trues_coef):
                 agreg_false[j] = 1.0
-            elif abs(agreg_true[j] / trues_size) < 0.2 and abs(agreg_false[j] / falses_size) > 0.8:
+            elif abs(agreg_true[j] * trues_coef) < 0.2 and abs(agreg_false[j] * falses_coef) > 0.8:
                 agreg_false[j] = 1.0
             else:
                 agreg_false[j] = 0.0
@@ -97,6 +98,23 @@ def test_model(model, data_x, data_y, class_number):
         if data_y[i] == class_number:
             class_size += 1
     return (acc / size_data), (class_result / class_size)
+
+
+def full_test_model(model, data_x, data_y):
+    res = model.predict(data_x)
+    class_result = [0] * (data_y.max()+1)
+    class_size = [0] * (data_y.max()+1)
+    class_acc = []
+    acc = 0
+    size_data = res.shape[0]
+    for i in range(size_data):
+        if res[i, data_y[i]] == res[i].max():
+            acc += 1
+            class_result[data_y[i]] += 1
+        class_size[data_y[i]] += 1
+    for i in range(len(class_result)):
+        class_acc.append(class_result[i] / class_size[i])
+    return (acc / size_data), class_acc
 
 
 def binary_search_by_mnist_validation(mnist_data_x, mnist_data_y, limit, pictures_data, model,
@@ -143,9 +161,9 @@ assert data_x.shape[1] == data_m_and_v.shape[1]
 
 model = tf.keras.models.load_model('data/models/epochs/ep008-loss0.023-accuracy0.992_20211127-220304.h5')
 
-default_accuracy, class_0 = test_model(model, mnist_test_x, mnist_test_y, 0)
+default_accuracy, class_stat = full_test_model(model, mnist_test_x, mnist_test_y)
 print(default_accuracy)
-print(class_0)
+print(class_stat)
 
 hidden_model = create_hidden_output_layer(model)
 
