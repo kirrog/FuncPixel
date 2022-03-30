@@ -68,13 +68,13 @@ def model_redact_with_local_max(model, trues, falses):
             agreg_false += falses[j].output_values[i]
 
         for j in range(agreg_true.shape[0]):
-            if agreg_true[j] > 0.0 and agreg_false[j] > 0.0 and (agreg_false[j] * falses_coef) > (
-                    agreg_true[j] * trues_coef):
+            agreg_false_val = agreg_false[j] * falses_coef
+            agreg_true_val = agreg_true[j] * trues_coef
+            if agreg_true[j] > 0.0 and agreg_false[j] > 0.0 and (agreg_false_val - agreg_true_val) > (
+                    agreg_false_val + agreg_true_val) / 2:
                 agreg_false[j] = 1.0
-            elif agreg_true[j] < 0.0 and agreg_false[j] < 0.0 and (agreg_false[j] * falses_coef) < (
-                    agreg_true[j] * trues_coef):
-                agreg_false[j] = 1.0
-            elif abs(agreg_true[j] * trues_coef) < 0.2 and abs(agreg_false[j] * falses_coef) > 0.8:
+            elif agreg_true[j] < 0.0 and agreg_false[j] < 0.0 and (agreg_false_val - agreg_true_val) < (
+                    agreg_false_val + agreg_true_val) / 2:
                 agreg_false[j] = 1.0
             else:
                 agreg_false[j] = 0.0
@@ -102,8 +102,8 @@ def test_model(model, data_x, data_y, class_number):
 
 def full_test_model(model, data_x, data_y):
     res = model.predict(data_x)
-    class_result = [0] * (data_y.max()+1)
-    class_size = [0] * (data_y.max()+1)
+    class_result = [0] * (data_y.max() + 1)
+    class_size = [0] * (data_y.max() + 1)
     class_acc = []
     acc = 0
     size_data = res.shape[0]
