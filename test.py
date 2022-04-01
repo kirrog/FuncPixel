@@ -35,8 +35,4 @@ from data_work.data_loader import pict_size, load_grad_local_maximums, load_loca
 #     f.write("| {n:05d} ".format(n=int(i)))
 # f.write("|\n")
 
-r = np.zeros((2,2))
-r_1 = np.zeros((2,2))
-r_1[0,0] = 1
-r += r_1
-print(r)
+print([1] + [2])
