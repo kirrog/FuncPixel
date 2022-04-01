@@ -7,6 +7,7 @@ from pathlib import Path
 
 from finding.find import find_supr
 from finding.generator import create_generator_points
+from maximums_counting import count_cutted_models_maximums
 
 ouput_path = "/media/kirrog/data/data/"
 dim, side_size = 7, 28
@@ -22,7 +23,7 @@ def calc_from_point_pos(model, point, pos):
     return res_in_point, res_from_point, result_points
 
 
-for k in range(num_of_classes):
+for k in range(1, num_of_classes):
     g, num_of_points = create_generator_points(7, 28)
     model = tf.keras.models.load_model('data/models/cutted/{k:02d}.h5'.format(k=k))
     print("Model {k:02d} loaded".format(k=k))

@@ -2,8 +2,8 @@ import sys
 
 import faiss
 import numpy as np
-
-from data_work.data_loader import load_x_model_vectors
+from pathlib import Path
+from data_work.data_loader import load_x_model_vectors, load_cutted_model_vectors
 
 pict_size = 28
 dim = pict_size * pict_size
@@ -62,12 +62,29 @@ def distilate_to_unique_maximums(full_vectors):
     return np.vstack(unique)
 
 
-x_model_vectors_raw = load_x_model_vectors()
+def count_base_model_maximums():
+    x_model_vectors_raw = load_x_model_vectors()
 
-for i in range(1, 9):
-    print("Class {i:02d}".format(i=i))
-    x_model_vectors = np.array(np.reshape(x_model_vectors_raw[:, i],
-                                          (x_model_vectors_raw.shape[0],
-                                           pict_size * pict_size)), dtype=np.float32)
-    res = distilate_to_unique_maximums(x_model_vectors)
-    np.save("data/unique/{i:02d}].npy".format(i=i), res)
+    for i in range(1, 9):
+        print("Class {i:02d}".format(i=i))
+        x_model_vectors = np.array(np.reshape(x_model_vectors_raw[:, i],
+                                              (x_model_vectors_raw.shape[0],
+                                               pict_size * pict_size)), dtype=np.float32)
+        res = distilate_to_unique_maximums(x_model_vectors)
+        np.save("data/unique/{i:02d}.npy".format(i=i), res)
+
+def count_cutted_models_maximums():
+    for i in range(10):
+        print("Class {i:02d}".format(i=i))
+        x_model_vectors_raw = load_cutted_model_vectors(i)
+        x_model_vectors = np.array(np.reshape(x_model_vectors_raw,
+                                              (x_model_vectors_raw.shape[0],
+                                               pict_size * pict_size)), dtype=np.float32)
+        print("Loaded")
+        res = distilate_to_unique_maximums(x_model_vectors)
+        print("Calculated")
+        path_class = "data/cutted_models_maximums/class_{class_num:02d}.npy".format(class_num=i)
+        Path("data/cutted_models_maximums/").mkdir(parents=True, exist_ok=True)
+        np.save(path_class, res)
+
+count_cutted_models_maximums()

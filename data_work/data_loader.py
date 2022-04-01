@@ -6,6 +6,7 @@ dir_path = "/media/kirrog/data/data/"
 path_point_pred = "point_answ/"
 path_grad_pred = "point_grad_answ/"
 path_model_vectors = "points_grad/"
+path_cutted_model_vectors = "class_{num:02d}/points_grad/"
 path_grad_local_minims = "points_nearest_grad_calc/"
 batch_size = 128
 pict_size = 28
@@ -50,3 +51,8 @@ def load_grad_local_maximums_and_vals():
 
 def load_local_vals():
     return load_data_from_disk(path_grad_local_minims, [classes_number, 2, 2], lambda d: d, 256)[:, :, 1, :]
+
+
+def load_cutted_model_vectors(class_num):
+    return load_data_from_disk(path_cutted_model_vectors.format(num=class_num), [pict_size * pict_size],
+                               lambda d: np.reshape(d, (batch_size, pict_size * pict_size)), 128)

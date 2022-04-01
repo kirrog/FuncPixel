@@ -1,0 +1,10 @@
+Class: 00 before: 034729 after: 034656 merge: 034653
+Class: 01 before: 032949 after: 032811 merge: 032760
+Class: 02 before: 033757 after: 033057 merge: 033039
+Class: 03 before: 034211 after: 035434 merge: 035425
+Class: 04 before: 031969 after: 032503 merge: 032494
+Class: 05 before: 031981 after: 032033 merge: 032032
+Class: 06 before: 035930 after: 035986 merge: 035986
+Class: 07 before: 034042 after: 033962 merge: 033957
+Class: 08 before: 033509 after: 033509 merge: 033509
+Class: 09 before: 034051 after: 033587 merge: 033580
