@@ -7,6 +7,7 @@ path_point_pred = "point_answ/"
 path_grad_pred = "point_grad_answ/"
 path_model_vectors = "points_grad/"
 path_cutted_model_vectors = "class_{num:02d}/points_grad/"
+path_cutted_dropout_vectors = "dropout_model/points_grad/"
 path_grad_local_minims = "points_nearest_grad_calc/"
 batch_size = 128
 pict_size = 28
@@ -56,3 +57,8 @@ def load_local_vals():
 def load_cutted_model_vectors(class_num):
     return load_data_from_disk(path_cutted_model_vectors.format(num=class_num), [pict_size * pict_size],
                                lambda d: np.reshape(d, (batch_size, pict_size * pict_size)), 128)
+
+
+def load_cutted_all_model_vectors():
+    return load_data_from_disk(path_cutted_dropout_vectors, [classes_number, pict_size * pict_size],
+                               lambda d: np.reshape(d, (batch_size, classes_number, pict_size * pict_size)), 128)

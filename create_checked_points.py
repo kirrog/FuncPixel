@@ -6,7 +6,7 @@ import timeit
 
 from finding.find import calc_from_point
 
-model = tf.keras.models.load_model('data/models/epochs/ep008-loss0.023-accuracy0.992_20211127-220304.h5')
+model = tf.keras.models.load_model('data/models/dropout/ep022-loss0.025-accuracy0.992_20220401-145621.h5')
 model.summary()
 #
 # x = tf.Variable(np.zeros((1, 28, 28, 1)))
@@ -19,7 +19,7 @@ model.summary()
 # print("Time: " + str(stop - start))
 from finding.generator import create_generator_points
 
-ouput_path = "/media/kirrog/data/data/"
+ouput_path = "/media/kirrog/data/data/dropout_model/"
 dim, side_size = 7, 28
 points_shape = (1, side_size, side_size, 1)
 g, num_of_points = create_generator_points(7, 28)
